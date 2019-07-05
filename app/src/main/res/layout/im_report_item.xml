@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="13dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.oneone.modules.msg.widget.LimitWidthRelativeLayout
+            android:id="@+id/content_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp" />
+
+            <com.oneone.modules.feedback.view.NoScrollGridView
+                android:id="@+id/content_pic_gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/content_tv"
+                android:layout_marginTop="10dp"
+                android:numColumns="3"
+                android:columnWidth="76dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp"
+                />
+            </RelativeLayout>
+
+        </com.oneone.modules.msg.widget.LimitWidthRelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/im_msg_status_layout"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/im_msg_status_failed_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/im_msg_status_send_failed" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

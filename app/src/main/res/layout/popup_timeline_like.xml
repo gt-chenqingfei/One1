@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_dp_10"
+        android:background="@drawable/bg_popup_like_type"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dimen_dp_15">
+
+
+        <ImageView
+            android:id="@+id/popup_timeline_like_iv_smile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_popup_like_type_smile" />
+
+        <ImageView
+            android:id="@+id/popup_timeline_like_iv_surprise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_dp_6"
+            android:src="@drawable/ic_popup_like_type_surprise" />
+
+        <ImageView
+            android:id="@+id/popup_timeline_like_iv_love_it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_dp_6"
+            android:src="@drawable/ic_popup_like_type_love_it" />
+
+        <ImageView
+            android:id="@+id/popup_timeline_like_iv_like_it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_dp_6"
+            android:src="@drawable/ic_popup_like_type_like_it" />
+
+    </LinearLayout>
+</LinearLayout>

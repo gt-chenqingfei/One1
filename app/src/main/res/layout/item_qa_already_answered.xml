@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_white_radius_5dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="19dp"
+        >
+
+        <TextView
+            android:id="@+id/qa_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="23dp"
+            android:textColor="@color/text_black_2"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/modify_qa_btn"
+            android:layout_width="13dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/in_tune_page_already_answered_modify_iv_bg" />
+
+        <LinearLayout
+            android:id="@+id/answer_rlt_item_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/qa_title_tv"
+            android:layout_below="@id/qa_title_tv"
+            android:layout_marginTop="13dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="13dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/emoji_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <RelativeLayout
+            android:id="@+id/im_msg_status_layout"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/im_msg_status_failed_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/im_msg_status_send_failed" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

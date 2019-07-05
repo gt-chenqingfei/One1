@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/color_3E4F6C"
+    >
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/dog_food_center_bg"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        >
+        <TextView
+            android:id="@+id/dog_food_val_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/dog_food_val_tv"
+            android:layout_marginLeft="6dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/str_dog_food_unit_text"
+            />
+    </RelativeLayout>
+
+    <!--<TextView
+        android:id="@+id/today_earn_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:text="@string/str_dog_food_today_earn_left_text"
+        />-->
+
+    <Button
+        android:id="@+id/what_is_dog_food_btn"
+        android:layout_width="221dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/shap_bg_67a1ff"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/str_dog_food_what_is_dog_food_text"
+        />
+</LinearLayout>

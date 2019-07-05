@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.oneone.framework.ui.imagepicker.view.CropImageView
+        android:id="@+id/cv_crop_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/ok_btn"
+        android:layout_width="@dimen/dimen_dp_116"
+        android:layout_height="@dimen/dimen_dp_28"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_dp_20"
+        android:layout_weight="1"
+        android:background="@drawable/bg_crop_image"
+        android:clickable="true"
+        android:descendantFocusability="beforeDescendants"
+        android:minHeight="@dimen/dimen_dp_28"
+        android:onClick="onClick">
+
+        <TextView
+            android:id="@+id/ok_btn_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/str_crop_finish"
+            android:textColor="@color/color_white"
+            android:textSize="17sp"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_normal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_56"
+        android:background="@color/color_black"
+        android:elevation="4dp"
+        android:fitsSystemWindows="true"
+        app:theme="@style/ToolbarPopupTheme">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/str_album_photo_crop"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/dimen_sp_16"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

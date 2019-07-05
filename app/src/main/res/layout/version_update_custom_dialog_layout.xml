@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimen_dp_258"
+        android:layout_height="@dimen/dimen_dp_258">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/versionchecklib_version_dialog_commit"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/dimen_dp_22"
+            android:background="@drawable/shape_purple_radius_6dp" />
+
+        <ImageView
+            android:id="@id/versionchecklib_version_dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimen_dp_5"
+            android:layout_marginTop="@dimen/dimen_dp_5"
+            android:padding="@dimen/dimen_dp_10"
+            android:src="@drawable/version_update_close" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_dp_50"
+            android:src="@drawable/version_update_background_icon" />
+
+        <TextView
+            android:id="@+id/version_update_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_dp_15"
+            android:text="@string/version_update_new_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_sp_20"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/version_update_tv_verison_hint"
+            android:layout_below="@+id/version_update_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_sp_13" />
+
+        <TextView
+            android:id="@+id/verion_update_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/version_update_tv_verison_hint"
+            android:paddingBottom="@dimen/dimen_dp_10"
+            android:paddingLeft="@dimen/dimen_dp_20"
+            android:paddingTop="@dimen/dimen_dp_10"
+            android:textSize="@dimen/dimen_sp_15"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@id/versionchecklib_version_dialog_commit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_45"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/dimen_dp_50"
+            android:layout_marginStart="@dimen/dimen_dp_50"
+            android:gravity="center"
+            android:background="@drawable/shape_white_radius_48dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/version_update_new_confirm"
+                android:textColor="@color/color_7879FF"
+                android:textSize="@dimen/dimen_sp_18" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/widget_toolbar"
+        android:layout_marginEnd="@dimen/dimen_dp_10"
+        android:layout_marginStart="@dimen/dimen_dp_10"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/activity_timeline_post_edit_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_radius_7dp_shadow"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dimen_dp_12"
+                android:paddingEnd="@dimen/dimen_dp_18"
+                android:paddingStart="@dimen/dimen_dp_18"
+                android:paddingTop="@dimen/dimen_dp_18">
+
+                <EditText
+                    android:id="@+id/activity_timeline_post_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_white"
+                    android:cursorVisible="true"
+                    android:gravity="top|left"
+                    android:hint="@string/timeline_post_hint"
+                    android:maxHeight="300dp"
+                    android:minHeight="110dp"
+                    android:padding="10dp"
+                    android:textColor="@color/color_3E4F6C"
+                    android:textColorHint="@color/color_C4CFE1"
+                    android:textCursorDrawable="@drawable/cursor_timeline_post_text_color"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/activity_timeline_post_tv_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/dimen_dp_10"
+                        android:drawableStart="@drawable/ic_location_gray"
+                        android:text="@string/str_at_location"
+                        android:textColor="@color/color_7E94BB"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/activity_timeline_post_tv_text_max_limit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="140"
+                        android:textColor="@color/color_C4CFE1" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <com.oneone.modules.timeline.view.TimelinePostImageView
+                android:id="@+id/activity_timeline_post_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_timeline_post_edit_ll"
+                android:layout_marginEnd="@dimen/dimen_dp_10"
+                android:layout_marginStart="@dimen/dimen_dp_10"
+                android:layout_marginTop="@dimen/dimen_dp_10" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_dp_10"
+        android:paddingEnd="@dimen/dimen_dp_18"
+        android:paddingStart="@dimen/dimen_dp_18"
+        android:paddingTop="@dimen/dimen_dp_10">
+
+        <TextView
+            android:id="@+id/activity_timeline_post_tv_topic"
+            android:layout_width="@dimen/dimen_dp_50"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="#"
+            android:textColor="@color/color_C4CFE1"
+            android:textSize="@dimen/dimen_sp_18" />
+
+        <TextView
+            android:id="@+id/activity_timeline_post_tv_visibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/shape_radius_40dp_border_edf3fc_1px"
+            android:drawablePadding="@dimen/dimen_dp_10"
+            android:drawableStart="@drawable/ic_visibility"
+            android:padding="@dimen/dimen_dp_6"
+            android:text="@string/str_timeline_visibility_public"
+            android:textColor="@color/color_7E94BB"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

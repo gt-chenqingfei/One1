@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="106dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/str_mine_page_single_data_completion_title_text"
+        android:textColor="@color/text_black_2"
+        android:textSize="14dp" />
+
+    <RelativeLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="298dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/title_tv"
+        android:layout_below="@id/title_tv"
+        android:layout_marginTop="6dp"
+        >
+        <com.oneone.widget.MyHorizontalProgressBar
+            android:id="@+id/progress_view"
+            android:layout_width="298dp"
+            android:layout_height="20dp"
+            app:zpb_padding="0dp"
+            app:zpb_open_gradient="true"
+            app:zpb_gradient_from="@color/progress_from_color"
+            app:zpb_gradient_to="@color/progress_end_color"
+            app:zpb_bg_color="@color/green_blue"
+            app:zpb_max="100"
+            />
+
+        <TextView
+            android:id="@+id/progress_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11dp"
+            android:textColor="@color/text_blue_1"
+            android:layout_alignRight="@id/progress_view"
+            android:layout_marginRight="8dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/progress_layout"
+        android:layout_below="@id/progress_layout"
+        android:layout_marginTop="6dp"
+        android:text="@string/str_mine_page_single_data_completion_desc_text"
+        android:textColor="@color/text_blue_1"
+        android:textSize="13dp" />
+</RelativeLayout>

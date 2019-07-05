@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.oneone.framework.ui.widget.SimplePullRecyclerView
+            android:id="@+id/topic_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent" />
+
+        <com.oneone.modules.timeline.view.TimeLineFloatingMenu
+            android:id="@+id/frag_timeline_floating_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:fm_button_interval="4dp"
+            app:fm_floating_direction="up">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/frag_timeline_fab_menu_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_timeline_floating_menu_pic"
+                app:backgroundTint="@color/color_white" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/frag_timeline_fab_menu_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_timeline_floating_menu_text"
+                app:backgroundTint="@color/color_white" />
+        </com.oneone.modules.timeline.view.TimeLineFloatingMenu>
+
+    </RelativeLayout>
+
+</LinearLayout>

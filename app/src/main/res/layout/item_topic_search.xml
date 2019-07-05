@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_topic_search_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dimen_dp_15"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:text="#话题"
+        android:textColor="@color/color_3E4F6C"
+        android:textSize="@dimen/dimen_sp_18"/>
+
+</RelativeLayout>

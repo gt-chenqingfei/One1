@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/preview_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/single_flow_upload_pic_top_bg"
+    android:visibility="visible">
+
+    <com.oneone.framework.ui.widget.ZzHorizontalProgressBar
+        android:id="@+id/frag_profile_gender_edit_pb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_3"
+        android:layout_marginTop="@dimen/dimen_dp_76"
+        app:zpb_bg_color="@color/single_flow_progress_bar_bg"
+        app:zpb_max="13"
+        app:zpb_padding="0dp"
+        app:zpb_pb_color="@color/single_flow_progress_bar_cur_process_bg"
+        app:zpb_progress="12"
+        app:zpb_show_mode="rect" />
+
+    <ScrollView
+        android:id="@+id/preview_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/frag_profile_gender_edit_pb"
+
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/preview_title_tag_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="77dp"
+                android:background="@color/single_flow_content_bg_2"
+                android:paddingBottom="16dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:paddingTop="16dp"
+                android:text="@string/str_set_single_flow_page_preview_title"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/preview_element_user_photo_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.oneone.modules.user.view.StoryView
+                android:id="@+id/frag_profile_preview_my_story_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_dp_87" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="148dp"
+    android:orientation="horizontal"
+    >
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:id="@+id/left_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/my_story_tag_iv"
+            android:layout_width="29dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mine_single_my_story_tag_bg"
+            />
+
+        <TextView
+            android:id="@+id/my_story_tag_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/my_story_tag_iv"
+            android:layout_below="@+id/my_story_tag_iv"
+            android:layout_marginTop="9dp"
+            android:text="@string/str_mine_page_single_my_story_tag_text"
+            android:textColor="@color/text_black_2"
+            android:textSize="14dp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/my_story_like_count_left_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_story_tag_tv"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@id/my_story_tag_tv"
+            android:textColor="@color/text_black_2"
+            android:textSize="20dp"
+            android:text="0"
+            />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/my_story_like_count_right_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/my_story_like_count_left_tv"
+            android:layout_toRightOf="@id/my_story_like_count_left_tv"
+            android:layout_marginLeft="5dp"
+            android:textSize="13dp"
+            android:textColor="@color/text_blue_1"
+            android:text="@string/str_mine_page_single_my_story_like_tag_text"
+            />
+
+        <TextView
+            android:id="@+id/my_story_modify_tag_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="13dp"
+            android:layout_below="@id/my_story_like_count_left_tv"
+            android:layout_marginTop="8dp"
+            android:layout_alignLeft="@id/my_story_like_count_left_tv"
+            android:text="@string/str_mine_page_single_my_story_modify_tag_text"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="@dimen/dimen_dp_6"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:id="@+id/right_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:id="@+id/my_matcher_user_photo_layout"
+            android:layout_width="66dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/my_matcher_tag_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/my_matcher_user_photo_layout"
+            android:layout_below="@+id/my_matcher_user_photo_layout"
+            android:layout_marginTop="9dp"
+            android:text="@string/str_mine_page_single_my_matcher_tag_text"
+            android:textColor="@color/text_black_2"
+            android:textSize="14dp"/>
+
+        <RelativeLayout
+            android:id="@+id/my_matcher_count_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/my_matcher_tag_tv"
+            android:layout_below="@+id/my_matcher_tag_tv"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/my_matcher_count_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textColor="@color/text_black_2"
+                android:text="0"
+                />
+            <TextView
+                android:id="@+id/my_matcher_count_tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/my_matcher_count_tv_1"
+                android:layout_marginLeft="4dp"
+                android:layout_alignTop="@id/my_matcher_count_tv_1"
+                android:textSize="13dp"
+                android:textColor="@color/text_blue_1"
+                android:text="人"
+                />
+
+            <TextView
+                android:id="@+id/my_matcher_count_tv_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/my_matcher_count_tv_2"
+                android:layout_marginLeft="3dp"
+                android:layout_centerVertical="true"
+                android:textSize="11dp"
+                android:textColor="@color/text_pink_1"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/my_matcher_invite_tag_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textSize="13dp"
+            android:layout_below="@id/my_matcher_count_layout"
+            android:layout_marginTop="8dp"
+            android:layout_alignLeft="@id/my_matcher_count_layout"
+            android:text="@string/str_mine_page_single_my_mather_invite_tag_text"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

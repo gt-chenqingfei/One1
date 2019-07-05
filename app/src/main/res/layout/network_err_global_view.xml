@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nodata_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/err_iv"
+        android:layout_width="104dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/err_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:text="@string/str_common_net_err_desc"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_7E94BB"
+        android:layout_below="@id/err_iv"
+        android:layout_marginTop="18dp"
+        />
+    
+    <Button
+        android:id="@+id/reload_btn"
+        android:layout_width="221dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/err_tv"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shap_blue_bg"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:text="@string/str_common_reload_btn_text"
+        />
+
+    <TextView
+        android:id="@+id/solution_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="@color/color_3E4F6C"
+        android:text="@string/str_common_net_err_solution_text"
+        android:layout_below="@id/reload_btn"
+        android:layout_marginTop="23dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

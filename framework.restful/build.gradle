@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion ONEONE_TARGET_SDK_VERSION as int
+//    buildToolsVersion ONEONE_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion ONEONE_MIN_SDK_VERSION as int
+        targetSdkVersion ONEONE_TARGET_SDK_VERSION as int
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':framework.android')
+    //    compile 'org.apache.httpcomponents:httpcore:4.3.1'
+    //    compile('org.apache.httpcomponents:httpmime:4.3.6') {
+    //        exclude module: 'httpclient'
+    //    }
+}

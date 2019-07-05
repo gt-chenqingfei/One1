@@ -1,0 +1,65 @@
+<resources>
+    <!--通用字符串 -->
+    <string name="str_empty" />
+    <string name="str_cancel">取消</string>
+    <string name="str_ok">确认</string>
+    <string name="str_copy">复制</string>
+    <string name="str_clear">清空</string>
+    <string name="str_reset">重置</string>
+    <string name="str_add">添加</string>
+    <string name="str_retry">重试</string>
+    <string name="str_remove">移出</string>
+    <string name="str_select_all">全选</string>
+    <string name="str_select_all_cancel">取消全选</string>
+    <string name="str_completed">完成</string>
+    <string name="str_menu_save_local">保存到本地</string>
+
+    <!-- 相册选择的页面 -->
+    <string name="str_album_images_all">所有图片</string>
+    <string name="str_album_folder_image_count">共%1$d张图片</string>
+    <string name="str_album_preview_image_count">%1$d/%2$d</string>
+    <string name="str_album_select_limit">不能超过%1$d张图片~ (つω⊂)</string>
+    <string name="str_album_select_complete">完成(%1$d/%2$d)</string>
+    <string name="str_album_preview">预览</string>
+    <string name="str_album_preview_count">预览(%1$d)</string>
+    <string name="str_album_photo_crop">移动和缩放</string>
+    <string name="str_album_origin">原图</string>
+    <string name="str_album_origin_size">原图(%1$s)</string>
+    <string name="str_album_preview_normal_size">%1$s&#160;/&#160;%2$s</string>
+    <string name="str_ablum_permission_denied">权限被禁止，无法选择本地图片</string>
+    <string name="str_camera_permission_denied">权限被禁止，无法打开相机</string>
+    <string name="str_alert_title">提示</string>
+    <string name="str_alert_delete_pic">要删除这张照片吗？</string>
+    <string name="str_crop_finish">选取</string>
+    <string name="title_picture">相机胶卷</string>
+    <string name="str_take_a_photo">拍摄照片</string>
+    <string name="str_pic_select">选择</string>
+    <string name="permission_external_storage_content">允许“OneOne”获取存储权限~</string>
+
+    <!-- 聊天的文字 -->
+    <string name="str_message_content_image">[图片]</string>
+    <string name="str_message_content_emoji">[表情]</string>
+    <string name="str_message_content_voice">[语音]</string>
+    <string name="str_message_content_rich_text">[图文]</string>
+    <string name="str_message_content_location">[位置]</string>
+
+    <!-- 版本升级 -->
+    <string name="versionchecklib__name">VersionCheckLib</string>
+    <string name="versionchecklib_confirm">确认</string>
+    <string name="versionchecklib_cancel">取消</string>
+    <string name="versionchecklib_retry">重试</string>
+    <string name="versionchecklib_download_fail_retry">下载失败是否重试？</string>
+    <string name="versionchecklib_download_finish">下载完成，点击安装</string>
+    <string name="versionchecklib_downloading">正在下载中...</string>
+    <string name="versionchecklib_check_new_version">检测到新版本</string>
+    <string name="versionchecklib_download_progress">下载进度:%d%%/100%%</string>
+    <string name="versionchecklib_download_fail">下载失败，点击重试</string>
+    <string name="versionchecklib_progress">%d/100</string>
+    <string name="versionchecklib_write_permission_deny">下载安装包需要读写文件权限。</string>
+    <string name="versionchecklib_download_apkname">%s.apk</string>
+
+    <!-- picture -->
+    <string name="picture_save">保存图片</string>
+    <string name="picture_save_complete">图片已保存</string>
+
+</resources>

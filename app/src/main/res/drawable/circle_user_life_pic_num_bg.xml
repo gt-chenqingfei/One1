@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape
+            android:dither="true"
+            android:shape="oval" >
+            <solid android:color="@color/white" />
+
+            <size
+                android:height="24dp"
+                android:width="24dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp">
+        <shape android:shape="oval" >
+            <solid android:color="@color/single_flow_upload_pic_top_bg" />
+
+            <size
+                android:height="20dp"
+                android:width="20dp" />
+        </shape>
+    </item>
+
+</layer-list>

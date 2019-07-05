@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/step_5_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/step_5_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:background="@color/single_flow_content_bg_5">
+
+        <ImageView
+            android:id="@+id/step_5_img_tag_iv"
+            android:layout_width="244dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="43dp"
+            android:layout_marginTop="91dp"
+            android:background="@drawable/step_5_img_tag_bg" />
+
+        <RelativeLayout
+            android:id="@+id/step_5_top_tag_collection_inner_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="23dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:background="@color/white"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/step_5_top_tag_collection_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/single_flow_content_bg_5"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/step_5_tv_tag_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/step_5_tv_tag_2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:lineSpacingExtra="3dp"
+            android:text="@string/str_set_single_flow_page_work_experence"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sp_22"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/step_5_tv_tag_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="@dimen/dimen_dp_5"
+            android:text="@string/str_set_single_flow_page_tip_range_1_to_3"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+
+        <com.oneone.framework.ui.widget.ZzHorizontalProgressBar
+            android:id="@+id/frag_profile_pb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_3"
+            android:layout_alignParentBottom="true"
+            app:zpb_bg_color="@color/single_flow_progress_bar_bg"
+            app:zpb_max="12"
+            app:zpb_padding="0dp"
+            app:zpb_pb_color="@color/single_flow_progress_bar_cur_process_bg"
+            app:zpb_progress="5"
+            app:zpb_show_mode="rect" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/step_5_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/step_5_top_layout"
+        android:background="@color/white">
+
+        <com.oneone.widget.AutoFlowView
+            android:id="@+id/frag_profile_occupation_afv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_sp_18"
+            android:paddingRight="@dimen/dimen_sp_18"
+            android:layout_marginTop="@dimen/dimen_sp_10"
+            android:layout_marginBottom="@dimen/dimen_dp_20"/>
+
+    </RelativeLayout>
+</RelativeLayout>

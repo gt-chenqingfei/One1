@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="121dp"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="22dp"
+        android:text="@string/str_mine_page_matcher_open_single"
+        />
+
+    <Button
+        android:id="@+id/open_single_btn"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/title_tv"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:background="@drawable/shape_white_radius_40dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textColor="@color/blue"
+        android:text="@string/str_mine_page_matcher_open_single_btn_text"
+        />
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_close_1"
+        />
+    <ImageView
+        android:layout_width="93dp"
+        android:layout_height="63dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/mine_matcher_open_single_pic_icon_bg"
+        />
+</RelativeLayout>

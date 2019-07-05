@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <com.oneone.modules.setting.views.SettingLineItem
+        android:id="@+id/setting_open_oneone_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.oneone.modules.setting.views.SettingLineItem
+        android:id="@+id/setting_about_oneone_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="23dp"
+        android:background="@color/gray_line" />
+
+    <com.oneone.modules.setting.views.SettingLineItem
+        android:id="@+id/setting_logout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

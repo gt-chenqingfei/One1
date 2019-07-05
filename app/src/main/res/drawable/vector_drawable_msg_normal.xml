@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="18dp"
+    android:viewportWidth="28"
+    android:viewportHeight="18">
+
+    <path
+        android:name="Fill-1"
+        android:fillColor="#8D9EBA"
+        android:strokeWidth="1"
+        android:pathData="M16.2,16.8 C18.2,14.9,19.5,12.3,19.5,9.3 C19.5,7,18.7,4.8,17.4,3.1 L18,3.1
+C21.9,3.1,25,6.2,25,10.1 L25,17.1 L18,17.1 C17.4,17,16.8,16.9,16.2,16.8" />
+    <path
+        android:name="Fill-3"
+        android:fillColor="#B7C3DA"
+        android:strokeWidth="1"
+        android:pathData="M9,0 C14,0,18,4,18,9 C18,14,14,18,9,18 L0,18 L0,9 C0,4,4,0,9,0" />
+    <path
+        android:name="Fill-5"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M5,8 C5.552,8,6,8.448,6,9 C6,9.552,5.552,10,5,10 C4.448,10,4,9.552,4,9
+C4,8.448,4.448,8,5,8" />
+    <path
+        android:name="Fill-7"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M9,8 C9.552,8,10,8.448,10,9 C10,9.552,9.552,10,9,10 C8.448,10,8,9.552,8,9
+C8,8.448,8.448,8,9,8" />
+    <path
+        android:name="Fill-9"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M13,8 C13.552,8,14,8.448,14,9 C14,9.552,13.552,10,13,10 C12.448,10,12,9.552,12,9
+C12,8.448,12.448,8,13,8" />
+</vector>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/widget_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_56"
+    android:gravity="center_vertical"
+    android:minHeight="56dp"
+    app:contentInsetStart="0dp"
+    app:paddingStart="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_56"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/topic_et_input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/timeline_topic_search_hint"
+                android:imeOptions="actionSearch"
+                android:textCursorDrawable="@null"
+                android:paddingLeft="@dimen/dimen_dp_15"
+                android:singleLine="true"
+                android:textSize="@dimen/dimen_sp_14" />
+
+            <TextView
+                android:id="@+id/topic_tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_dp_10"
+                android:text="@string/str_cancel"
+                android:textColor="@color/color_6667FD"
+                android:textSize="@dimen/dimen_sp_15" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_CAD3E2" />
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

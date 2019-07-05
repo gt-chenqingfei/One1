@@ -1,0 +1,86 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oneone.framework.ui">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <!-- Glide的配置 -->
+        <meta-data
+            android:name="com.oneone.framework.ui.glide.GlideKLModule"
+            android:value="GlideModule" />
+
+
+        <activity android:name="com.oneone.framework.ui.imagepicker.ui.ImageBaseActivity" />
+        <activity
+            android:name="com.oneone.framework.ui.imagepicker.ui.ImageGridActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ImagePickerTheme" />
+        <activity
+            android:name="com.oneone.framework.ui.imagepicker.ui.ImageCropActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:theme="@style/ImagePickerTheme" />
+        <activity
+            android:name="com.oneone.framework.ui.imagepicker.ui.ImagePreviewActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ImagePickerThemeFullScreen" />
+
+        <activity
+            android:name="com.oneone.framework.ui.imagepicker.ui.ImagePreviewDelActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ImagePickerThemeFullScreen" />
+        <activity android:name="com.oneone.framework.ui.imagepicker.preview.PhotoBrowserPagerActivity"
+            android:configChanges="orientation"
+            android:theme="@style/TranslucentTheme"/>
+
+        <provider
+            android:name="com.oneone.framework.ui.imagepicker.ImagePickerProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <activity
+            android:name="com.oneone.framework.ui.upgrade.core.VersionDialogActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+        <provider
+            android:name="com.oneone.framework.ui.upgrade.core.VersionFileProvider"
+            android:authorities="${applicationId}.versionProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/versionchecklib_file_paths" />
+        </provider>
+        <activity
+            android:name="com.oneone.framework.ui.upgrade.core.PermissionDialogActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+        <service
+            android:name="com.oneone.framework.ui.upgrade.core.MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.oneone.framework.ui.upgrade.v2.ui.VersionService"
+            android:exported="false" />
+        <activity
+            android:name="com.oneone.framework.ui.upgrade.v2.ui.UIActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+        <activity
+            android:name="com.oneone.framework.ui.upgrade.v2.ui.DownloadingActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme" />
+        <activity
+            android:name="com.oneone.framework.ui.upgrade.v2.ui.DownloadFailedActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/versionCheckLibvtransparentTheme"></activity>
+
+    </application>
+
+</manifest>

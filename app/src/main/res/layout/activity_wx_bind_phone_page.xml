@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green_blue">
+
+        <RelativeLayout
+            android:id="@+id/content_layout_input_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/bind_phone_top_bg_iv"
+                android:layout_width="63dp"
+                android:layout_height="79dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/bind_phone_top_bg" />
+
+            <EditText
+                android:id="@+id/bind_phone_et"
+                android:layout_width="218dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/bind_phone_top_bg_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/shape_white_radius_40dp"
+                android:digits="1234567890"
+                android:gravity="center"
+                android:hint="@string/str_wx_bind_phone_page_input_phone_hint"
+                android:inputType="number"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:textColor="@color/text_bind_phone_page_et"
+                android:textColorHint="@color/text_bind_phone_page_et"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/bind_phone_confirm_phone_num_iv"
+                android:layout_width="218dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/bind_phone_et"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/shap_blue_bg"
+                android:gravity="center"
+                android:text="@string/str_wx_bind_phone_page_continue"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/bind_phone_confirm_phone_num_iv"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_sp_11"
+                    android:textColor="@color/color_7E94BB"
+                    android:text="@string/str_login_page_agree_protocol_notice"
+                    />
+
+                <TextView
+                    android:id="@+id/user_protocol_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_sp_11"
+                    android:textColor="@color/color_7E94BB"
+                    android:text="@string/str_about_oneone_protocol_text"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/content_layout_input_vericode"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/input_vericode_tv_tag_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="46dp"
+                android:text="@string/str_wx_bind_phone_page_input_vericode"
+                android:textColor="@color/blue"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/input_vericode_tv_tag_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/input_vericode_tv_tag_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:text="@string/str_wx_bind_phone_page_send_message_notice"
+                android:textColor="@color/blue"
+                android:textSize="11dp" />
+
+            <EditText
+                android:id="@+id/verify_code_et"
+                android:layout_width="217dp"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/input_vericode_tv_tag_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="37dp"
+                android:background="@color/transparent"
+                android:digits="1234567890"
+                android:inputType="number"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:textColor="@color/transparent"
+                android:textCursorDrawable="@color/transparent" />
+
+            <LinearLayout
+                android:id="@+id/verify_code_layout"
+                android:layout_width="217dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/input_vericode_tv_tag_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="37dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/verify_code_tv_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/shap_white_verify_block"
+                    android:gravity="center"
+                    android:text="@string/str_login_page_input_veri_code_0"
+                    android:textColor="@color/text_gray_1"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/verify_code_tv_2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="14dp"
+                    android:background="@drawable/shap_white_verify_block"
+                    android:gravity="center"
+                    android:text="@string/str_login_page_input_veri_code_1"
+                    android:textColor="@color/text_gray_1"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/verify_code_tv_3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="14dp"
+                    android:background="@drawable/shap_white_verify_block"
+                    android:gravity="center"
+                    android:text="@string/str_login_page_input_veri_code_2"
+                    android:textColor="@color/text_gray_1"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/verify_code_tv_4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="14dp"
+                    android:background="@drawable/shap_white_verify_block"
+                    android:gravity="center"
+                    android:text="@string/str_login_page_input_veri_code_3"
+                    android:textColor="@color/text_gray_1"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/send_vericode_btn"
+                android:layout_width="218dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/verify_code_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/shap_blue_bg"
+                android:gravity="center"
+                android:text="@string/str_wx_bind_phone_page_enter_oneone"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/change_phone_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/send_vericode_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                android:text="@string/str_wx_bind_phone_page_change_phone_num"
+                android:textColor="@color/blue"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/second_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/change_phone_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:text="@string/str_wx_bind_phone_page_send_veri_code_after_second"
+                android:textColor="@color/text_bind_phone_page_et"
+                android:textSize="11dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

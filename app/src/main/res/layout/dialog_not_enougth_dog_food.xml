@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="258dp"
+    android:layout_height="233dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/shap_blue_top_bg_8dp"
+        >
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="69dp"
+            android:background="@drawable/not_enougth_dog_food_bg"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:background="@drawable/shape_white_bottom_radius_8dp"
+        >
+        <TextView
+            android:id="@+id/desc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="6dp"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/color_3E4F6C"
+            android:text="@string/str_dog_food_dialog_not_enougth_desc_tv"
+            />
+
+        <TextView
+            android:id="@+id/close_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/desc_tv"
+            android:layout_marginTop="24dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textColor="@color/color_6667FD"
+            android:text="@string/str_dog_food_dialog_not_enougth_close_tv"
+            />
+    </RelativeLayout>
+</LinearLayout>

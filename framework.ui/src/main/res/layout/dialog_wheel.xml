@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_216"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/color_DBE8FA" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_38"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/dialog_wheel_negative_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimen_dp_21"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_6667FD" />
+
+        <TextView
+            android:id="@+id/dialog_wheel_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_black" />
+
+        <TextView
+            android:id="@+id/dialog_wheel_positive_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dimen_dp_21"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_6667FD" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/color_DBE8FA" />
+
+
+    <com.oneone.framework.ui.widget.wheelview.widget.WheelView
+        android:id="@+id/dialog_wheel_wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/checkbox_timeline_report_select" android:state_checked="true"></item>
+    <item android:drawable="@drawable/checkbox_timeline_report_normal" android:state_checked="false"></item>
+    <item android:drawable="@drawable/checkbox_timeline_report_select" android:state_pressed="true" />
+    <item android:drawable="@drawable/checkbox_timeline_report_normal" ></item>
+
+</selector>

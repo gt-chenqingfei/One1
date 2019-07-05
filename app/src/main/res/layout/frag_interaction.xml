@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    android:orientation="vertical"
+                    android:paddingBottom="25dp">
+
+                    <RelativeLayout
+                        android:id="@+id/interaction_total_info_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/interaction_like_title_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:text="@string/str_my_msg_interaction_like_title_text"
+                                android:textColor="@color/white"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/interaction_like_title_increase_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="16dp"
+                                android:layout_marginLeft="7dp"
+                                android:background="@drawable/shape_white_radius_10dp"
+                                android:paddingLeft="7dp"
+                                android:paddingRight="7dp"
+                                android:paddingTop="4dp"
+                                android:text="+12"
+                                android:textColor="@color/blue"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/interaction_like_title_total_info_logo_iv"
+                            android:layout_width="85dp"
+                            android:layout_height="53dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="88dp"
+                            android:background="@drawable/msg_talk_interaction_title_img_bg" />
+
+                        <TextView
+                            android:id="@+id/interaction_like_title_total_info_see_all_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="15dp"
+                            android:text="@string/str_my_msg_talk_first_time_see_all_text"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-28dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/like_each_other_user_list_outer_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/like_each_other_user_list_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/shape_white_radius_8dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="13dp"
+                                android:layout_marginTop="15dp">
+
+                                <ImageView
+                                    android:id="@+id/like_each_other_user_list_title_iv"
+                                    android:layout_width="34dp"
+                                    android:layout_height="18dp"
+                                    android:layout_centerVertical="true"
+                                    android:background="@drawable/msg_talk_user_photo_like_eachother_bg" />
+
+                                <TextView
+                                    android:id="@+id/like_each_other_count_tv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_toRightOf="@id/like_each_other_user_list_title_iv"
+                                    android:text="@string/str_my_msg_interaction_like_eachother_count_text"
+                                    android:textColor="@color/text_black_2"
+                                    android:textSize="14dp" />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:id="@+id/like_each_other_user_list_content_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_below="@id/content_layout"
+                                android:layout_marginLeft="13.5dp"
+                                android:layout_marginRight="13.5dp"
+                                android:background="@color/color_EAEBEF" />
+
+                            <TextView
+                                android:id="@+id/like_eachother_see_all_text"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="center" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/like_me_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/shape_white_radius_8dp">
+
+                        <ImageView
+                            android:id="@+id/like_me_iv"
+                            android:layout_width="20dp"
+                            android:layout_height="17dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="13dp"
+                            android:background="@drawable/heart_like_me_bg" />
+
+                        <TextView
+                            android:id="@+id/like_me_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@id/like_me_iv"
+                            android:text="@string/str_my_msg_interaction_like_me_text"
+                            android:textColor="@color/text_black_2"
+                            android:textSize="14dp" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/notify_title_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="24dp"
+                            android:text="@string/str_my_msg_interaction_norice_title_text"
+                            android:textColor="@color/text_blue_1"
+                            android:textSize="14dp" />
+
+                        <LinearLayout
+                            android:id="@+id/notify_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/shape_white_radius_8dp"
+                            android:orientation="vertical">
+                            <RelativeLayout
+                                android:id="@+id/nodata_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="600dp"
+                                android:visibility="gone"
+                                >
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginTop="100dp"
+                                    >
+                                    <com.airbnb.lottie.LottieAnimationView
+                                        android:id="@+id/no_data_iv"
+                                        android:layout_width="104dp"
+                                        android:layout_height="120dp"
+                                        android:layout_centerHorizontal="true"
+                                        />
+
+                                    <TextView
+                                        android:id="@+id/no_data_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="13dp"
+                                        android:text="@string/str_common_no_data_text"
+                                        android:layout_centerHorizontal="true"
+                                        android:textColor="@color/color_7E94BB"
+                                        android:layout_below="@id/no_data_iv"
+                                        android:layout_marginTop="18dp"
+                                        />
+                                </RelativeLayout>
+                            </RelativeLayout>
+                            <!--<ListView
+                                android:id="@+id/notify_lv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:dividerHeight="0dp"
+                                android:divider="@color/transparent"
+                                />-->
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

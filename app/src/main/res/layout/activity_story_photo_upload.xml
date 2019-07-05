@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_EDF3FC" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.oneone.framework.ui.widget.SimpleRecyclerView
+                android:id="@+id/activity_story_photo_upload_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_dp_53"
+                android:layout_marginStart="@dimen/dimen_dp_53"
+                android:layout_marginTop="@dimen/dimen_dp_10" />
+
+            <Button
+                android:id="@+id/activity_story_photo_upload_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_dp_48"
+                android:layout_marginBottom="@dimen/dimen_dp_66"
+                android:layout_marginEnd="@dimen/dimen_dp_53"
+                android:layout_marginStart="@dimen/dimen_dp_53"
+                android:layout_marginTop="@dimen/dimen_dp_28"
+                android:background="@drawable/shape_purple_radius_41dp"
+                android:drawablePadding="@dimen/dimen_dp_20"
+                android:drawableStart="@drawable/life_img_tag"
+                android:paddingEnd="@dimen/dimen_dp_50"
+                android:paddingStart="@dimen/dimen_dp_50"
+                android:text="@string/str_set_single_flow_page_live_pic_choosed_notice_2"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

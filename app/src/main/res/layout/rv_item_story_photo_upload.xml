@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dimen_dp_18">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_123">
+
+        <ImageView
+            android:id="@+id/rv_item_story_photo_upload_iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:gravity="center_horizontal|bottom"
+            android:textColor="@color/color_white"
+            android:text="1"
+            android:background="@drawable/circle_user_life_pic_num_bg"
+            android:id="@+id/rv_item_story_photo_upload_tv_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginStart="@dimen/dimen_dp_6"
+            android:layout_marginTop="@dimen/dimen_dp_6"
+            />
+
+        <ImageView
+            android:src="@drawable/life_img_modify_img_bg"
+            android:id="@+id/rv_item_story_photo_upload_iv_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dimen_dp_6"
+            android:layout_marginBottom="@dimen/dimen_dp_6"/>
+    </RelativeLayout>
+
+    <EditText
+        android:layout_marginTop="7dp"
+        android:maxLength="30"
+        android:id="@+id/rv_item_story_photo_upload_edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_84"
+        android:background="@drawable/shape_radius_4dp_edf3fc"
+        android:cursorVisible="true"
+        android:gravity="top|left"
+        android:hint="@string/timeline_post_hint"
+        android:padding="10dp"
+        android:textColor="@color/color_3E4F6C"
+        android:textColorHint="@color/color_C4CFE1"
+        android:textCursorDrawable="@drawable/cursor_timeline_post_text_color"
+        android:textSize="14sp" />
+</LinearLayout>

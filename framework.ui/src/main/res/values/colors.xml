@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#6667FD</color>
+    <color name="color_status_bar">#ffffff</color>
+    <color name="color_bottom_nav">#F8FAFF</color>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_transparent">@android:color/transparent</color>
+    <color name="color_242528">#242528</color>
+    <color name="color_3E4F6C">#3E4F6C</color>
+    <color name="color_7E94BB">#7E94BB</color>
+    <color name="color_C4CFE1">#C4CFE1</color>
+    <color name="color_DBE8FA">#DBE8FA</color>
+    <color name="color_EDF3FC">#EDF3FC</color>
+    <color name="color_6667FD">#6667FD</color>
+    <color name="color_796CF0">#796CF0</color>
+    <color name="color_67A1FF">#67A1FF</color>
+    <color name="color_22D0A5">#22D0A5</color>
+    <color name="color_F5ABA1">#F5ABA1</color>
+    <color name="color_F9F9FA">#F9F9FA</color>
+    <color name="color_CAD3E2">#CAD3E2</color>
+    <color name="color_685AED">#685AED</color>
+    <color name="color_8B99FF">#8B99FF</color>
+    <color name="color_6F7C91">#6F7C91</color>
+    <color name="color_white_trans_50">#7FFFFFFF</color>
+    <color name="color_black_trans_50">#7f000000</color>
+
+    <!-- 相册选择的颜色  -->
+    <color name="default_background_color">@android:color/transparent</color>
+    <color name="default_progress_color">#33b5e5</color>
+    <color name="default_stroke_color">#33b5e5</color>
+    <color name="default_text_color">#333333</color>
+    <color name="ic_back_press">#323336</color>
+    <color name="ip_color_primary">#393A3F</color>
+    <color name="ip_color_primary_dark">#303135</color>
+    <color name="ip_color_primary_trans">#ec2f3335</color>
+    <color name="ip_color_press">#ffe0e0e0</color>
+    <color name="ip_camera_pre">#353535</color>
+    <color name="ip_color_accent">#1AAD19</color>
+    <color name="ip_text_secondary_inverted">#66ffffff</color>
+    <color name="ip_text_primary_inverted">#ffffff</color>
+    <color name="color_7879FF">#7879FF</color>
+    <color name="color_a76cf0">#A76CF0</color>
+    <color name="color_F7F8FF">#F7F8FF</color>
+
+    <!-- 相册选择的颜色 END-->
+
+</resources>

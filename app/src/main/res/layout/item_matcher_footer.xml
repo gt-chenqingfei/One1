@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_matcher_footer_btn"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_54"
+    android:layout_marginEnd="@dimen/dimen_dp_23"
+    android:layout_marginStart="@dimen/dimen_dp_23"
+    android:layout_marginTop="@dimen/dimen_dp_38"
+    android:layout_marginBottom="@dimen/dimen_dp_38"
+    android:background="@drawable/shape_purple_radius_41dp"
+    android:orientation="vertical"
+    android:text="@string/str_item_matcher_footer_text"
+    android:textColor="@color/color_white"
+    android:textSize="@dimen/dimen_sp_14"/>
+

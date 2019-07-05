@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+
+    >
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_white_radius_5dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="23dp"
+        android:paddingBottom="23dp"
+        >
+        <TextView
+            android:id="@+id/qa_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:textSize="14dp"
+            android:textColor="@color/text_black_2"
+            />
+
+        <Button
+            android:id="@+id/qa_answer_btn"
+            android:layout_width="221dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/qa_title_tv"
+            android:layout_marginTop="18dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shap_blue_bg"
+            android:text="@string/str_in_tune_page_qa_answer_and_see_btn"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

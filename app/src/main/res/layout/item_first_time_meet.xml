@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Bottom View Start-->
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="74dp"
+        android:layout_height="72dp"
+        android:background="@color/red"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/delete_btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/delete_icon_iv"
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/delete_icon_bg_1" />
+        </RelativeLayout>
+        <!--What you want to show-->
+    </LinearLayout>
+    <!-- Bottom View End-->
+
+    <!-- Surface View Start -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <!--What you want to show in SurfaceView-->
+        <RelativeLayout
+            android:id="@+id/root_layout"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/user_photo_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true">
+
+                <View
+                    android:id="@+id/new_point_view"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/blue_point_bg"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/user_relation_photo_layout"
+                    android:layout_width="69dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="18dp">
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/user_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/user_photo_layout"
+                android:orientation="vertical"
+                android:paddingRight="18dp">
+
+                <TextView
+                    android:id="@+id/user_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_black_3"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/message_content_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/text_black_3"
+                    android:textSize="13dp" />
+                <!--<LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    >
+                    <ImageView
+                        android:layout_width="19dp"
+                        android:layout_height="12dp"
+                        android:background="@drawable/item_discover_suggest_intersection_bg"
+                        />
+
+                    <TextView
+                        android:id="@+id/user_interaction_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/text_blue_1"
+                        android:layout_marginLeft="6dp"
+                        />
+
+                </LinearLayout>-->
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/msg_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="16dp"
+                android:text="12:34"
+                android:textColor="@color/color_CAD3E2"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/unread_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/msg_time_tv"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/shap_blue_bg_8dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:textSize="9dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/user_info_layout"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/user_photo_layout"
+                android:background="@color/gray_line" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- Surface View End -->
+
+
+</com.daimajia.swipe.SwipeLayout>

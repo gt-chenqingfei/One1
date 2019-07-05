@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/question_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/border_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="93dp"
+            android:background="@drawable/shape_white_radius_5dp">
+
+            <TextView
+                android:id="@+id/page_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/text_blue_1"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/qa_theme_iv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/page_count_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp" />
+
+            <TextView
+                android:id="@+id/qa_theme_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qa_theme_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/text_blue_1"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/qa_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qa_theme_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="38dp"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/text_black_2"
+                android:textSize="14dp" />
+
+            <ScrollView
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/qa_title_tv"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                >
+                <LinearLayout
+                    android:id="@+id/qa_choose_item_layout"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/previous_question_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/text_blue_1"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="45dp"
+            android:text="@string/str_my_qa_page_previous_question_text"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/finish_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:background="@drawable/shape_white_radius_5dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/qa_finish_icon_iv"
+            android:layout_width="183dp"
+            android:layout_height="96dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/qa_must_answer_finish_bg" />
+
+        <TextView
+            android:id="@+id/qa_finish_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qa_finish_icon_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/text_black_2"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/continue_btn"
+            android:layout_width="190dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/qa_finish_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/shap_blue_bg"
+            android:text="@string/str_my_qa_page_continue_answer_text"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/see_my_answered_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/continue_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="@string/str_my_qa_page_see_my_answered_text"
+            android:textColor="@color/text_blue_1"
+            android:textSize="13dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

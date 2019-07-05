@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guide_floor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/discover_filter_btn"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/discover_filter_btn_bg" />
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="132dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/new_user_regist_1_bg_1" />
+</RelativeLayout>

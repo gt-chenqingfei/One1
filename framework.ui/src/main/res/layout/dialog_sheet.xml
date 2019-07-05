@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_F9F9FA"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dialog_sheet_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_sheet_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_dp_17"
+            android:layout_marginTop="@dimen/dimen_dp_22"
+            android:gravity="center"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/dimen_sp_14"
+            tools:text="标题" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginEnd="@dimen/dimen_dp_17"
+            android:layout_marginStart="@dimen/dimen_dp_17"
+            android:background="@color/color_CAD3E2" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/dialog_sheet_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:fadingEdge="vertical">
+
+        <LinearLayout
+            android:id="@+id/dialog_sheet_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginEnd="@dimen/dimen_dp_17"
+        android:layout_marginStart="@dimen/dimen_dp_17"
+        android:background="@color/color_CAD3E2" />
+
+    <TextView
+        android:id="@+id/dialog_sheet_tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_48"
+        android:layout_gravity="bottom"
+        android:background="@color/color_white"
+        android:gravity="center"
+        android:text="@string/str_cancel"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/dimen_sp_18" />
+
+</LinearLayout>

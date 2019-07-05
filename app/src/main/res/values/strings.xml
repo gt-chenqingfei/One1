@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OneOne</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="network_not_awesome">网络异常</string>
+    <string name="empty_str"></string>
+    <string name="commit_text">提交</string>
+
+    <string name="no_name_text">用户</string>
+
+    <string name="im_bottom_see_user_text">查看资料</string>
+    <string name="im_bottom_report_text">举报</string>
+    <string name="im_bottom_delete_contact_text">删除会话</string>
+    <string name="im_send_gift_front_word">你送了</string>
+    <string name="im_receive_gift_front_word">送了你</string>
+
+    <string name="pic_limit_text_1">最多上传</string>
+    <string name="pic_limit_text_2">张图片</string>
+
+    <string name="str_common_no_data_text_2">数据</string>
+    <string name="str_common_no_data_text">还没有</string>
+    <string name="str_common_no_data_text_3">暂无互动消息</string>
+    <string name="str_common_reload_btn_text">重新加载</string>
+    <string name="str_common_net_err_desc">没有网络的世界\nOneOne没法生存</string>
+    <string name="str_common_net_err_solution_text">解决方法</string>
+
+    <string name="str_empty_my_follower_btn">现在去探索一下</string>
+    <string name="str_empty_follow_me_btn">发点动态让别人关注你吧</string>
+    <string name="str_empty_my_like_btn">去OneOne里挑一看看</string>
+    <string name="str_empty_like_eachother_btn">发点动态让别人关注你吧</string>
+    <string name="str_empty_like_me_btn">去OneOne里挑一看看</string>
+
+    <string name="str_empty_my_follower">漫漫人海，\n还没找到想关注的Single...</string>
+    <string name="str_empty_follow_me">暂时还是小透明\n⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄</string>
+    <string name="str_empty_my_like">还没遇上喜欢的人哟</string>
+    <string name="str_empty_like_eachother">暂时还是小透明\n⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄</string>
+    <string name="str_empty_like_me">还没遇上喜欢的人哟</string>
+
+    <!-- notice -->
+
+    <!-- app notice-->
+    <string name="str_app_notice_phone_num_err">手机号格式有误</string>
+    <string name="str_app_notice_not_install_wechat">您尚未安装微信</string>
+    <string name="str_app_take_pic">拍照</string>
+    <string name="str_app_choose_album">相册</string>
+    <string name="str_app_title_right_save_text">保存</string>
+    <string name="str_app_save_request_ok">保存成功</string>
+    <string name="str_app_save_request_fail">保存失败</string>
+
+    <!-- LoginPage -->
+    <string name="str_login_page_input_veri_code_0">输</string>
+    <string name="str_login_page_input_veri_code_1">验</string>
+    <string name="str_login_page_input_veri_code_2">证</string>
+    <string name="str_login_page_input_veri_code_3">码</string>
+    <string name="str_login_page_login_by_wx_tv">微信登录</string>
+    <string name="str_login_page_login_by_phone_tv">手机号登录</string>
+    <string name="str_login_page_agree_protocol_notice">继续操作即表示同意</string>
+    <string name="str_login_page_input_phone_tv">输入手机号</string>
+    <!-- SetSingleFlowPage -->
+    <string name="str_set_single_flow_page_step_11_pic_story">这张照片有什么故事吗...</string>
+    <string name="str_set_single_flow_page_max_count_tags_1">最多选择</string>
+    <string name="str_set_single_flow_page_max_count_tags_2">个标签</string>
+    <string name="str_set_single_flow_page_step_1_please_choose">请选择</string>
+    <string name="str_set_single_flow_page_step_11_max_pic_upload_notice">最多上传6张</string>
+    <string name="str_set_single_flow_page_step_2_input_nickname_notice">请填写昵称</string>
+    <string name="str_set_single_flow_page_input_city_notice">请填写城市</string>
+    <string name="str_set_single_flow_page_step_4_input_birthday_notice">请填写生日</string>
+    <string name="str_set_single_flow_page_min_count_tags_1">至少选择</string>
+    <string name="str_set_single_flow_page_min_count_tags_2">个标签</string>
+
+    <string name="str_set_single_flow_page_min_count_tags">至少选择%1$s个标签</string>
+
+    <string name="str_set_single_flow_page_custom_tag">＋自定义标签</string>
+    <string name="str_set_single_flow_page_custom_tag_not_null_notice">标签文字不能为空</string>
+    <string name="str_set_single_flow_page_custom_tag_not_null_notice_space">标签文字不能包含空格</string>
+    <string name="str_set_single_flow_page_photo_pic_choosed_notice">Nice! 不满意也可以换:)</string>
+    <string name="str_set_single_flow_page_live_pic_choosed_notice_2">不错！再来几张吧</string>
+    <string name="str_set_single_flow_page_live_pic_choosed_notice_1">选几张照片</string>
+    <string name="str_set_single_flow_page_createing_single_tv">单身资料生成中</string>
+    <string name="str_set_single_flow_page_i_am_tv">我是</string>
+    <string name="str_set_single_flow_page_girl_tv">少女</string>
+    <string name="str_set_single_flow_page_little_sister">小姐姐</string>
+    <string name="str_set_single_flow_page_sister">姐姐</string>
+    <string name="str_set_single_flow_page_fresh_meat">鲜肉</string>
+    <string name="str_set_single_flow_page_little_brother">小哥哥</string>
+    <string name="str_set_single_flow_page_brother">大叔</string>
+    <string name="str_set_single_flow_page_confirm">确认</string>
+    <string name="str_set_single_flow_page_confirm_cannot_modify">确认后不可修改</string>
+    <string name="str_set_single_flow_page_want_to_be_called">我希望被大家叫做</string>
+    <string name="str_set_single_flow_page_nickname">昵称</string>
+    <string name="str_set_single_flow_page_usually_live_in">我现在常居住在</string>
+    <string name="str_set_single_flow_page_city">城市</string>
+    <string name="str_set_single_flow_page_my_birthday">我的出生日期是</string>
+    <string name="str_set_single_flow_page_year_month_day">年/月/日</string>
+    <string name="str_set_single_flow_page_date_confirm">确定</string>
+    <string name="str_set_single_flow_page_date_cancel">取消</string>
+    <string name="str_set_single_flow_page_tip_range_1_to_3">可选择1～3个标签</string>
+    <string name="str_set_single_flow_page_tip_range_1_to_10">可选择1～10个标签</string>
+    <string name="str_set_single_flow_page_tip_range_3_to_10">可选择3～10个标签</string>
+    <string name="str_set_single_flow_page_work_experence">你曾经和现在都做过\n哪些工作？</string>
+    <string name="str_set_single_flow_page_skill_except_occupation">除了现在的职业， \n你还有什么能养家糊口的技能？</string>
+    <string name="str_set_single_flow_page_your_personality">通过以下哪些特征可以区 \n别你和其他人？</string>
+    <string name="str_set_single_flow_page_sepcial_experience">选出那些吓呆小伙伴的特殊经历</string>
+    <string name="str_set_single_flow_page_your_creed">严肃选出你的人生信条</string>
+    <string name="str_set_single_flow_page_special_hobby">要满足你的哪些偏好才能 \n和你愉快地交往？</string>
+    <string name="str_set_single_flow_page_next_step">下一步</string>
+    <string name="str_set_single_flow_page_next_this">就这些</string>
+    <string name="str_set_single_flow_page_jump_to_next">跳过</string>
+    <string name="str_set_single_flow_page_input_max_count_10">输入（不超过10个字）</string>
+    <string name="str_set_single_flow_page_choose_pic_tv_1">Hey！为了让形象更生动，还需要 \n你的几张高质量照片；）</string>
+    <string name="str_set_single_flow_page_upload_user_mainly_page_photo">上传个人主页照片</string>
+    <string name="str_set_single_flow_page_choose_user_photo_pic">选1张半身照／大头照</string>
+    <string name="str_set_single_flow_page_choose_user_live_pic">上传生活照片</string>
+    <string name="str_set_single_flow_page_choose_user_live_pic_case">例如：你的小时候；你在旅行中的照片；日常会做运动的你；撸猫遛狗中的你；你最喜欢的一幅画 等等……</string>
+    <string name="str_set_single_flow_page_choose_several_pic">选几张照片</string>
+    <string name="str_set_single_flow_page_preview">预览效果</string>
+    <string name="str_set_single_flow_page_back_to_modify">返回编辑</string>
+    <string name="str_set_single_flow_page_preview_title">为了更好地展示你鲜活有趣的灵魂，OneOne已根据你的个性标签，为你设计了独特的个人故事。</string>
+    <string name="str_set_single_flow_page_invite_matcher_top_text_1">邀请好友写Matcher印象\n认识真实的你</string>
+    <string name="str_set_single_flow_page_invite_matcher_top_text_2">Matcher印象，是朋友对你的评价，带着这个评价，他人可以迅速了解你生活中的模样。你也可以通过他人的Matcher印象，了解他是否是你所期盼的样子</string>
+    <string name="str_set_single_flow_page_invite_matcher_qa_text">你的Matcher将会做什么？</string>
+    <string name="str_set_single_flow_page_invite_matcher_invite_wx_friend_text">点击邀请链接发送给微信好友</string>
+    <string name="str_set_single_flow_page_invite_matcher_send_link_text">点击邀请链接发送给微信好友</string>
+    <string name="str_set_single_flow_page_invite_matcher_open_oneone_btn_text">开启OneOne</string>
+    <string name="str_set_single_flow_page_invite_matcher_what_is_mather_text">Matcher会 · 为你写Matcher印象，带OneOne认识生活中的你 · 邀请身边的单身，提供给你更多认识同一圈层单身的机会</string>
+    <!-- WxBindPhonePage -->
+    <string name="str_wx_bind_phone_page_enter_oneone">进入OneOne</string>
+    <string name="str_wx_bind_phone_page_wrong_phone_num">手机号格式有误</string>
+    <string name="str_wx_bind_phone_page_send_veri_code_after_second">秒后可重发验证码</string>
+    <string name="str_wx_bind_phone_page_send_veri_code_again">重新发送验证码</string>
+    <string name="str_wx_bind_phone_page_bind_phone_title">绑定手机号</string>
+    <string name="str_wx_bind_phone_page_input_phone_hint">输入手机号码</string>
+    <string name="str_wx_bind_phone_page_continue">继续</string>
+    <string name="str_wx_bind_phone_page_input_vericode">输入验证码</string>
+    <string name="str_wx_bind_phone_page_send_message_notice">短信已发送到 +86</string>
+    <string name="str_wx_bind_phone_page_change_phone_num">更改手机号</string>
+    <!-- WxEntry -->
+    <string name="str_wx_entry_auth_failed">授权失败，请重试</string>
+    <!-- WelcomePage -->
+    <string name="str_welcome_page_notice_0">欢迎来到OneOne</string>
+    <string name="str_welcome_page_notice_1">这是个只有单身和他们的朋友才可以加入的社会。\n\n有趣的单身们在这里一边享受单身时光, 一边探索更多同类！所有人也都能作为Matcher给好友牵线，助TA开启美好关系并收获感谢。\n\nLet’s Celebrate Singlehood!</string>
+    <string name="str_welcome_page_choose_role_tv_1">请选择你的身份</string>
+    <string name="str_welcome_page_choose_role_tv_2">随后可在任意时间激活第二身份</string>
+    <string name="str_welcome_page_single_explain_1">Single=单身</string>
+    <string name="str_welcome_page_single_explain_2">是OneOne里的第二大物种。Ta们都是快乐的单身</string>
+    <string name="str_welcome_page_single_suggest_tv">你会遇到这些有趣的Single</string>
+    <string name="str_welcome_page_confirm_single_role">以 Single 身份继续</string>
+    <string name="str_welcome_page_confirm_matcher_role">以 Matcher 身份继续</string>
+    <string name="str_welcome_page_matcher_single_count_text">位单身</string>
+    <!-- WxAuthPage -->
+    <string name="str_wx_auth_page_wx_auth">微信授权</string>
+    <string name="str_wx_auth_page_wx_auth1">重新绑定微信</string>
+    <string name="str_wx_auth_page_wx_auth_oneone">去微信授权OneOne</string>
+    <string name="str_wx_auth_page_wx_auth_explain">微信授权后，你就能快速地在OneOne上找 \n到微信好友，和Ta一起解锁更多玩法哟～</string>
+    <string name="str_welcome_page_matcher_explain_1">Match-er＝媒婆</string>
+    <string name="str_welcome_page_matcher_explain_2">拥有连接缘分的超能力。作为OneOne里的第一大物种，不管是否单身，都可以帮自己的朋友促成新的缘分</string>
+    <string name="str_welcome_page_matcher_suggest_tv">你会和这些Matcher一起连接OneOne们</string>
+    <string name="str_tab_mine">我</string>
+    <string name="str_tab_timeline">动态</string>
+    <string name="str_tab_singles">Single团</string>
+    <string name="str_tab_find">探索</string>
+    <string name="str_tab_msg">消息</string>
+    <string name="str_set_single_flow_page_invite_matcher_send_invite_text">发送邀请</string>
+    <string name="str_wx_bind_phone_page_send">已发送</string>
+    <string name="title_city_select">选择地区</string>
+    <string name="title_occupation_select">选择行业</string>
+    <string name="str_wx_bind_phone_tip">该微信已注册过账号，请绑定其他微信或\n登陆原有账号</string>
+
+    <!-- Account Exception -->
+    <string name="str_my_account_exception_page_exception_notice_text">您的账号可能存在异常\n请联系客服进行处理</string>
+    <string name="str_my_account_exception_page_connect_custom_service">联系客服</string>
+    <string name="str_other_account_exception_page_exception_notice_text">该用户存在异常行为，\n已被管理员封禁…</string>
+
+    <!-- mine page -->
+    <string name="str_mine_page_top_view_dynamic_count">动态</string>
+    <string name="str_mine_page_top_view_attention_count">我关注的</string>
+    <string name="str_mine_page_top_view_be_attention_count">关注我的</string>
+    <string name="str_mine_page_matcher_open_single">享受单身生活，寻找懂你的人</string>
+    <string name="str_mine_page_matcher_open_single_btn_text">开启Single资料</string>
+    <string name="str_mine_page_single_data_completion_title_text">个人资料</string>
+    <string name="str_mine_page_single_data_completion_desc_text">补充个人资料，充分体验聪明好用的专属社交体验</string>
+    <string name="str_mine_page_single_my_single_group_text">我的Signle团</string>
+    <string name="str_mine_page_single_my_single_group_person_unit_text">人</string>
+    <string name="str_mine_page_single_my_single_group_share_more_single_text">共享更多单身</string>
+    <string name="str_mine_page_single_my_story_tag_text">我的故事</string>
+    <string name="str_mine_page_single_my_story_like_tag_text">人喜欢</string>
+    <string name="str_mine_page_single_my_story_modify_tag_text">查看并编辑</string>
+    <string name="str_mine_page_single_my_matcher_tag_text">我的Matcher</string>
+    <string name="str_mine_page_single_my_mather_invite_tag_text">邀请好友支持我</string>
+    <string name="str_mine_page_item_love_qa_text">我的爱情人格</string>
+    <string name="str_mine_page_item_my_dog_food_text">我的狗粮</string>
+    <string name="str_mine_page_item_my_feedback_text">用户反馈</string>
+    <string name="str_mine_page_item_setting_text">设置</string>
+    <string name="dog_food_unit">粒</string>
+
+    <!-- SettingPage -->
+    <string name="str_setting_page_title_text">设置</string>
+    <string name="str_setting_page_open_oneone_item_text">开启Single资料</string>
+    <string name="str_setting_page_about_oneone_item_text">关于OneOne</string>
+    <string name="str_setting_page_logout_item_text">退出登录</string>
+
+    <!-- AboutOneone -->
+    <string name="str_about_oneone_title_text">关于OneOne</string>
+    <string name="str_about_oneone_welcome_text">欢迎来到OneOne</string>
+    <string name="str_about_oneone_what_is_oneone">OneOne是一个促进美好关系发生的单身社交平台，Single间的关系由Matcher（单身用户的朋友们）和OneOne共同促成。\n\n\n通过提供真实深入的信息与自然轻松的互动机制，引导你更快找到感兴趣的朋友。</string>
+    <string name="str_about_oneone_protocol_text">《OneOne使用协议》</string>
+    <string name="str_about_oneone_version_name_text">版本号：v</string>
+    <string name="str_about_oneone_protocol_page_title">OneOne使用协议</string>
+
+    <!-- MyMatcherGroup -->
+    <string name="str_my_matcher_group_title_text">我的Matcher帮</string>
+    <string name="str_my_matcher_group_explain_what_is_your_matcher">你的Matcher可以\n为你做什么？</string>
+    <string name="str_my_matcher_group_explain_what_is_your_matcher_item_1_text">为你写Matcher印象，带OneOne认识生活中的你。</string>
+    <string name="str_my_matcher_group_explain_what_is_your_matcher_item_2_text">邀请身边的单身，提供给你更多认识同一圈层单身的机会。</string>
+    <string name="str_my_matcher_group_invite_ta_to_write_text">邀请Ta来写</string>
+    <string name="str_my_matcher_group_not_write_impression_title_text">ta还没有为你写Matcher印象</string>
+
+    <!-- ModifyUserName -->
+    <string name="str_modify_user_name_page_title_text">昵称</string>
+    <string name="str_modify_user_name_page_title_text_null">昵称不能为空</string>
+    <string name="str_modify_user_name_page_title_text_two">昵称必须两个字符以上</string>
+    <string name="str_modify_user_name_title_text">我希望被大家叫做</string>
+    <!-- ModifyUserSign -->
+    <string name="str_modify_user_sign_page_title_text">个性签名</string>
+    <string name="str_modify_user_sign_hint_text">我的个性签名...</string>
+
+    <!-- ModifySingleUserMain -->
+    <string name="str_modify_single_user_main_title">编辑个人资料</string>
+    <string name="str_modify_single_user_main_my_story_title">我的故事标签</string>
+    <string name="str_modify_single_user_main_user_pet_title">我的宠物</string>
+    <string name="str_modify_single_user_main_user_occupation_and_school_title">职业与学校</string>
+    <string name="str_modify_single_user_main_user_life_habit_title">生活习惯</string>
+    <string name="str_modify_single_user_main_user_basic_title">基本资料</string>
+
+    <!-- ModifyMatcherUserBasic -->
+    <string name="str_modify_matcher_user_basic_title">基本资料</string>
+
+    <!-- ModifySingleUserBasic -->
+    <string name="str_modify_user_basic_title">基本资料</string>
+    <string name="str_modify_user_basic_line_item_title_sex">性别</string>
+    <string name="str_modify_user_basic_line_item_title_birthdate">出生日期</string>
+    <string name="str_modify_user_basic_line_item_title_person_set">我的人设</string>
+    <string name="str_modify_user_basic_line_item_title_usually_live">常住地</string>
+    <string name="str_modify_user_basic_line_item_title_hometown">家乡</string>
+    <string name="str_modify_user_basic_line_item_title_body_height">身高</string>
+    <string name="str_modify_user_basic_line_item_title_body_shap">体型</string>
+    <string name="str_modify_user_basic_line_item_title_family_situation">家庭情况</string>
+    <string name="str_modify_user_basic_line_item_title_faith">宗教信仰</string>
+    <string name="str_modify_user_basic_line_item_title_sign">个性签名</string>
+
+    <string name="str_modify_user_basic_line_item_val_sex">请选择性别</string>
+    <string name="str_modify_user_basic_line_item_val_hometown">请填写家乡</string>
+    <string name="str_modify_user_basic_line_item_val_body_height">请填写身高</string>
+    <string name="str_modify_user_basic_line_item_val_body_shap">请填写体型</string>
+    <string name="str_modify_user_basic_line_item_val_family_situation">请填写家庭情况</string>
+    <string name="str_modify_user_basic_line_item_val_faith">请填写宗教信仰</string>
+    <string name="str_modify_user_basic_line_item_val_sign">请填写个性签名</string>
+    <string name="str_modify_user_basic_line_item_val_birthdate">选择出生日期</string>
+    <string name="str_modify_user_basic_line_item_val_usually_live">选择常住地</string>
+
+
+    <!-- ModifySingleLiveHabit -->
+    <string name="str_modify_user_live_habit_title">生活习惯</string>
+    <string name="str_modify_user_live_habit_basic_line_item_title_eat">饮食习惯</string>
+    <string name="str_modify_user_live_habit_basic_line_item_title_sleep">作息习惯</string>
+    <string name="str_modify_user_live_habit_basic_line_item_title_smoke">吸烟习惯</string>
+    <string name="str_modify_user_live_habit_basic_line_item_title_drink">饮酒习惯</string>
+
+    <string name="str_modify_user_live_habit_basic_line_item_val_eat">请填写饮食习惯</string>
+    <string name="str_modify_user_live_habit_basic_line_item_val_sleep">请填写作息习惯</string>
+    <string name="str_modify_user_live_habit_basic_line_item_val_smoke">请填写吸烟习惯</string>
+    <string name="str_modify_user_live_habit_basic_line_item_val_drink">请填写饮酒习惯</string>
+
+    <!-- ModifySingleOccupationAndSchool -->
+    <string name="str_modify_user_occupation_and_school_title">职业与学校</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_title_occupation">行业/职业</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_title_company">公司</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_title_year_income">年收入</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_title_school">学校</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_title_education">学历</string>
+
+    <string name="str_modify_user_occupation_and_school_basic_line_item_val_occupation">选择行业/职业</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_val_company">请填写公司</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_val_year_income">选择年收入</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_val_school">请填写学校</string>
+    <string name="str_modify_user_occupation_and_school_basic_line_item_val_education">选择学历</string>
+
+    <!-- ModifySinglePet -->
+    <string name="str_modify_user_pet_title">我的宠物</string>
+    <string name="str_modify_user_pet_basic_line_item_title_pet_type">宠物种类</string>
+    <string name="str_modify_user_pet_basic_line_item_title_pet_name">宠物名称</string>
+
+    <string name="str_modify_user_pet_basic_line_item_val_pet_type">请填写宠物种类</string>
+    <string name="str_modify_user_pet_basic_line_item_val_pet_name">请填写宠物名称</string>
+
+    <!-- DiscoverPage -->
+    <string name="str_discover_page_title">探索</string>
+    <string name="str_discover_page_refresh_time_sign_1">距离下次更新还有</string>
+    <string name="str_discover_page_refresh_time_sign_2">分钟</string>
+    <string name="str_discover_page_whos_suggest_left_text">Matcher&#160;</string>
+    <string name="str_discover_page_whos_suggest_right_text">&#160;等推荐</string>
+    <string name="str_discover_page_last_item_time_surplus_tv_tag">距离下次推荐：</string>
+    <string name="str_discover_page_next_time_suggest_desc_1_text_1">每次精选</string>
+    <string name="str_discover_page_next_time_suggest_desc_1_text_2">位OneOne，帮你找到最\n适合你的那一位</string>
+    <string name="str_discover_page_last_item_type_1_confirm_btn_1_text">回答QA推荐更合拍的TA</string>
+    <string name="str_discover_page_next_time_suggest_desc_2_text">新的OneOne们已来到，点击刷新</string>
+    <string name="str_discover_page_last_item_type_1_confirm_btn_2_text">查看</string>
+    <string name="str_discover_page_last_item_type_2_text_1">您筛选的OneOne，暂时探索完\n了，OneOne的世界还在不断扩\n大中，新的人很快就会加入</string>
+    <string name="str_discover_page_last_item_type_2_text_2"><font color="#7E94BB">您也可以尝试</font><font color="#6667FD">调整筛选范围</font><font color="#7E94BB">或先去</font><font color="#6667FD">动态</font><font color="#7E94BB">里逛逛大家的生活状态</font></string>
+    <string name="str_discover_page_last_item_type_2_text_3">调整筛选范围</string>
+    <string name="str_discover_page_last_item_type_2_text_4">逛逛动态</string>
+    <string name="str_discover_page_last_item_type_2_text_5">您也可以</string>
+
+    <!-- DiscoverFilter -->
+    <string name="str_discover_user_filter_page_title_text">我想看到的OneOne</string>
+    <string name="str_discover_user_filter_page_person_set_tag_tv">人设</string>
+    <string name="str_discover_user_filter_page_usually_living_tag_tv">常住地</string>
+    <string name="str_discover_user_filter_page_confirm_btn_text">确认</string>
+
+    <!-- InTune -->
+    <string name="str_in_tune_page_title_text">我们的合拍度</string>
+    <string name="str_in_tune_page_view_point_of_love_title_text">爱情观</string>
+    <string name="str_in_tune_page_view_point_of_character_title_text">性格</string>
+    <string name="str_in_tune_page_view_point_of_moral_text">三观</string>
+    <string name="str_in_tune_page_view_point_of_live_habit_text">生活习惯</string>
+    <string name="str_in_tune_page_qa_answer_and_see_btn">回答看Ta的答案</string>
+
+    <!-- MyQa -->
+    <string name="str_my_qa_page_title_text">爱情问答</string>
+    <string name="str_my_qa_page_sub_title_not_answer_text">未答</string>
+    <string name="str_my_qa_page_sub_title_already_answer_text">已答</string>
+    <string name="str_singles_edit_matcher_relations">修改Matcher印象</string>
+    <string name="str_my_singles">我的Single团</string>
+    <string name="str_invite_more_friends">邀请更多单身好友</string>
+
+
+    <string name="str_gender_female">女</string>
+    <string name="str_gender_male">男</string>
+    <string name="str_gender_unknown"></string>
+    <string name="str_wechat_name">微信昵称: </string>
+    <string name="str_singles_add_matcher_relations">添加Matcher印象</string>
+    <string name="str_my_qa_page_previous_question_text">上一题</string>
+    <string name="str_my_qa_page_finish_left_text">太棒啦！你已经回答了</string>
+    <string name="str_my_qa_page_finish_right_text">道题</string>
+    <string name="str_my_qa_page_continue_answer_text">继续答题</string>
+    <string name="str_my_qa_page_see_my_answered_text">查看我的已答</string>
+    <string name="str_my_qa_page_finish_text">棒棒哒！你已回答完全部问题！</string>
+    <string name="str_activity_singles_invite_title">组建你的Single团 \n单身人类等你来拯救</string>
+    <string name="str_activity_singles_invite_title_no_newline">组建你的 Single 团，单身人类等你来拯救</string>
+    <string name="str_activity_singles_invite_sub_title">你可以在OneOne上：</string>
+    <string name="str_activity_singles_invite_content">1.为认识的Single写Matcher印象，带\n Oneone认识真实的TA \n2.邀请身边的单身，让TA们在OneOne上相\n逢相知</string>
+    <string name="str_activity_singles_invite_tip">点击邀请链接发送给微信好友</string>
+    <string name="str_activity_singles_invite_tip1">每邀请成功一位单身你都将获得100狗粮奖励~</string>
+    <string name="str_share_title">分享的title</string>
+    <string name="str_share_text">分享的文本</string>
+    <string name="str_share_url">分享的WebPage url</string>
+    <string name="str_share_image_url">分享的图片 url</string>
+    <string name="str_matcher_relations_set_title_format">%1$s想知道你对TA的印象 :)</string>
+    <string name="str_next">下一步</string>
+    <string name="str_activity_matcher_relation_set">+我自己写</string>
+    <string name="str_dialog_customer_relation_et_hint">输入（不超过5个字）</string>
+    <string name="toast_matcher_relation_set_relation_add_tip">请描述一下您与TA之间的关系哟</string>
+    <string name="toast_matcher_relation_set_not_null_tip">请填写你对Ta的印象</string>
+    <string name="str_item_matcher_footer_text">想知道更多好友对你的印象？</string>
+    <string name="str_have_invite">已邀请</string>
+    <string name="str_matcher_invite_title">邀请好友写Matcher印象\n认识真实的你</string>
+    <string name="str_matcher_invite_title_no_newline">邀请好友写 Matcher 印象，认识真实的你</string>
+    <string name="str_matcher_invite_content">Matcher印象，是朋友对你的评价，带着这个\n评价，他人可以迅速了解你生活中的模样。你\n也可以通过他人的Matcher印象，了解他是否\n是你所期盼的样子</string>
+
+    <!-- MatchPerson -->
+    <string name="str_match_person_page_title">我想看到的OneOne</string>
+    <string name="str_match_person_person_set_title">人设</string>
+    <string name="str_match_person_usually_living_title">常住地</string>
+    <string name="str_match_person_confirm_btn_text">确认</string>
+
+    <!-- MyFollowing -->
+    <string name="str_my_following_match_text">个交集</string>
+    <string name="str_my_following_intersection_text">%合拍度</string>
+    <string name="str_my_following_left_title_text">我关注的</string>
+    <string name="str_my_following_right_title_text">关注我的</string>
+    <string name="str_my_following_cancel_follow_dialog_title_left_text">不再关注</string>
+    <string name="str_my_following_cancel_follow_dialog_title_right_text">吗？</string>
+    <string name="str_my_following_cancel_follow_dialog_confirm_text">不再关注</string>
+    <string name="str_my_following_cancel_follow_dialog_cancel_text">取消</string>
+    <string name="str_my_following_left_empty_str">漫漫人海，\n还没找到想关注的Single...</string>
+    <string name="str_my_following_left_empty_btn_str">现在去探索一下</string>
+    <string name="str_my_following_right_empty_str">暂时还是小透明\n⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄</string>
+    <string name="str_my_following_right_empty_btn_str">现在去探索一下</string>
+
+
+    <!-- Msg -->
+    <string name="str_my_msg_title_talk_text">对话</string>
+    <string name="str_my_msg_title_interaction_text">互动</string>
+    <string name="str_my_msg_talk_open_msg_title_text">为了不错过任何可能，\n你愿意让我们及时发消息给你吗？</string>
+    <string name="str_my_msg_talk_open_msg_case_text">例如消息、点赞、心动等</string>
+    <string name="str_my_msg_talk_open_msg_i_wish_text">我愿意！</string>
+    <string name="str_my_msg_talk_first_time_meet_text">初次会面</string>
+    <string name="str_my_msg_talk_first_time_see_all_text">查看全部</string>
+    <string name="str_my_msg_talk_no_user_say_hi_text">最近没有收到新的招呼，快去发个动态吧～</string>
+
+    <string name="str_my_msg_interaction_like_title_text">喜欢</string>
+    <string name="str_my_msg_interaction_like_eachother_count_text">人与你互相喜欢</string>
+    <string name="str_my_msg_interaction_like_eachother_see_all_left_text">查看全部</string>
+    <string name="str_my_msg_interaction_like_eachother_see_all_right_text">人</string>
+    <string name="str_my_msg_interaction_like_me_text">个人喜欢你</string>
+    <string name="str_my_msg_interaction_not_have_like_me_text">最近没有收到喜欢，快去发个动态吧～</string>
+    <string name="str_my_msg_interaction_norice_title_text">通知</string>
+    <string name="str_my_msg_interaction_norice_user_action_support">赞了你的动态</string>
+    <string name="str_my_msg_interaction_norice_user_action_attention">开始关注你了</string>
+    <string name="str_my_msg_interaction_notice_user_action_deleted">抱歉，该动态已经被删除。</string>
+    <string name="str_my_msg_chat_et_hint">键入一条消息…</string>
+    <string name="str_my_msg_chat_et_send_btn_text">发送</string>
+    <string name="str_my_msg_first_time_gift_text_1">用一个礼物给你们的初次对话破冰</string>
+    <string name="str_my_msg_first_time_gift_text_2">每个礼物将花费10狗粮</string>
+    <string name="str_my_msg_first_time_gift_open_im_text">开启对话</string>
+    <string name="str_my_msg_hours_later">小时前</string>
+    <string name="str_my_msg_send_failed_network">发送失败，请检查</string>
+
+    <string name="str_contact_time_yesterday">昨天</string>
+    <string name="str_contact_time_one_week_before">天前</string>
+    <string name="str_monday">星期一</string>
+    <string name="str_tuesday">星期二</string>
+    <string name="str_wednesday">星期三</string>
+    <string name="str_thursday">星期四</string>
+    <string name="str_friday">星期五</string>
+    <string name="str_saturday">星期六</string>
+    <string name="str_sunday">星期日</string>
+
+    <string name="str_like_relation_title_my_like">我喜欢的</string>
+    <string name="str_like_relation_title_like_each_other">互相喜欢</string>
+    <string name="str_like_relation_title_like_me">喜欢我的</string>
+
+    <string name="str_list_default_no_more_text_1">没有更多人了</string>
+    <string name="str_like_relation_no_more_my_like">你没有更多喜欢的人了</string>
+    <string name="str_like_relation_no_more_like_each_other">没有更多人与你互相喜欢了</string>
+    <string name="str_like_relation_no_more_like_me">没有更多人喜欢你了</string>
+
+    <!-- Msg-Sys -->
+    <string name="str_my_msg_sys_title_text">One仔本仔</string>
+    <string name="str_my_msg_sys_webview_title_text">通知</string>
+    <!-- FirstTimeMeet -->
+    <string name="str_first_time_meet_title_text">初次会面</string>
+
+    <string name="title_my_story">我的故事标签</string>
+    <string name="str_menu_save">保存</string>
+    <string name="str_dialog_story_save_tip">是否根据标签重新生成我的故事？</string>
+    <string name="str_dialog_story_save_cancel">不用了</string>
+    <string name="str_dialog_story_save">重新生成</string>
+
+
+    <!-- Dog Food -->
+    <string name="str_dog_food_title_text">我的狗粮</string>
+    <string name="str_dog_food_unit_text">粒</string>
+    <string name="str_dog_food_today_earn_left_text">今天赚了</string>
+    <string name="str_dog_food_today_earn_right_text">粒狗粮</string>
+    <string name="str_dog_food_what_is_dog_food_text">狗粮可以做什么？</string>
+    <string name="str_dog_food_what_is_dog_food_explain_text">在OneOne里，狗粮就跟辣条一样有着至高无上的地位，因为它可以解决Single们的单相思之苦~如果对方没有与您相互心动，此时就需要用狗粮购买礼物送给对方，借此来开启你们之间的第一句话。</string>
+
+    <!-- Dog Food Record -->
+    <string name="str_dog_food_record_title_text">狗粮记录</string>
+    <string name="str_dog_food_record_join_oneone_reward">加入OneOne新人奖励</string>
+    <string name="str_dog_food_record_daily_get">每日领狗粮</string>
+    <string name="str_dog_food_record_send_gift_left_text">送给</string>
+
+
+    <!-- dialog -->
+    <string name="str_dog_food_dialog_close_btn_text">知道了</string>
+    <string name="str_dog_food_dialog_daily_earn_text">今日份的狗粮已送到</string>
+    <string name="str_dog_food_dialog_daily_earn_btn_text">收到</string>
+    <string name="str_wx_auth_page_login_origin">登录原有账号</string>
+
+    <string name="str_dog_food_dialog_not_enougth_desc_tv">狗粮不足，无法开启会话\n多攒点狗粮再来哟</string>
+    <string name="str_dog_food_dialog_not_enougth_close_tv">知道了</string>
+
+
+    <string name="str_setting_single_data_dialog_title_text">稍后可以去设置页开启Single资料</string>
+    <string name="str_setting_single_data_dialog_positive_text">马上开启</string>
+    <string name="str_setting_single_data_dialog_nagative_text">知道了</string>
+    <string name="str_follow">关注</string>
+    <string name="str_had_follow">已关注</string>
+    <string name="str_share">分享</string>
+    <string name="str_age_diaplay">岁</string>
+    <string name="str_match">合拍度</string>
+    <string name="str_intersection_our">我们有</string>
+    <string name="str_intersection">个交集</string>
+    <string name="str_intersection_friend">我们有%d个共同好友</string>
+    <string name="str_intersection_matcher">我们有%d个共同Matcher</string>
+    <string name="str_chat">对话</string>
+    <string name="str_profile_my_story_see_me">1秒钟认识我</string>
+    <string name="str_profile_matcher_relation">朋友眼中的我\n是这样的</string>
+    <string name="str_matcher_relation_manage">管理我的matcher印象</string>
+    <string name="str_profile_this_is_me">这就是我，%1$s</string>
+    <string name="str_profile_nice_to_meet_you">很高兴认识你：）</string>
+    <string name="str_religion_no">无宗教</string>
+    <string name="str_religion_buddhism">佛教</string>
+    <string name="str_religion_catholicism">天主教</string>
+    <string name="str_religion_christian">基督教</string>
+    <string name="str_religion_mohammedanism">伊斯兰教</string>
+    <string name="str_religion_other">其他</string>
+    <string name="str_religion_taoism">道教</string>
+    <string name="str_profile_singles_header_title">连接了%1$s个单身</string>
+    <string name="str_profile_mystory">我的故事</string>
+    <string name="str_profile_timeline">动态</string>
+    <string name="str_profile_singles">Single团</string>
+    <string name="str_set_avatar_tip">这是我的形象</string>
+    <string name="str_open_matchr_title">Matcher资料生成中</string>
+    <string name="str_upload">上传</string>
+
+    <!-- Feedback -->
+    <string name="str_report_title">举报用户</string>
+    <string name="str_report_user_name">用户昵称：</string>
+    <string name="str_report_classify">举报类型</string>
+    <string name="str_report_classify_hint">选择举报类型</string>
+    <string name="str_report_detail_desc">详细情况补充（选填）</string>
+    <string name="str_report_detail_desc_hint">写下你的宣言\n例：让世界充满爱</string>
+    <string name="str_report_pic_upload">请提供截图举证，以加快处理（选填）</string>
+    <string name="str_report_connect_method">联系方式（选填）</string>
+    <string name="str_report_connect_method_hint">请输入您的联系方式</string>
+
+    <string name="str_feed_back_title">用户反馈</string>
+    <string name="str_share_dialog_title">分享 %1$s 的个人主页</string>
+    <string name="str_profile_no_feel_dialog_message">点击无感后，该推荐人会消失哟</string>
+    <string name="str_open_dialog">开启对话</string>
+    <string name="str_like_dialog_send_tv">发送个onemoji开启你们\n的对话吧～</string>
+    <string name="str_like_dialog_send_title">已喜欢TA</string>
+    <string name="str_dialog_love_text">你们互相喜欢了！</string>
+    <string name="str_to_chat">快去和Ta聊聊</string>
+    <string name="str_empty_singles_tip">还没有连接的Single</string>
+    <string name="str_btn_invite_now">现在去邀请</string>
+    <string name="str_btn_record">现在开始记录美好生活</string>
+    <string name="str_empty_timeline_tip">还没有发过动态哟</string>
+    <string name="str_empty_timeline_tip_matcher">whoops!没有找到内容呢...</string>
+    <string name="str_my_story_update">修改我的故事</string>
+    <string name="str_no_more_data_4_profile_singles">Ta没有更多单身了</string>
+    <string name="str_timeline_post">发布</string>
+    <string name="str_timeline_post_text">分享文字</string>
+    <string name="str_timeline_post_image_text">分享图片</string>
+    <string name="str_at_location">所在位置</string>
+    <string name="timeline_post_hint">你此刻的想法...</string>
+    <string name="str_timeline_visibility_public">公开</string>
+
+    <!-- timeline-topic -->
+    <string name="timeline_topic_name">#话题</string>
+    <string name="timeline_topic_search_hint">搜索话题</string>
+    <string name="timeline_report_reason_title">请选择举报原因</string>
+    <string name="timeline_report_reason_ad">广告</string>
+    <string name="timeline_report_reason_eroticism">色情</string>
+    <string name="timeline_report_reason_swindle">诈骗</string>
+    <string name="timeline_report_reason_llegality">违法</string>
+    <string name="timeline_report_reason_other">其他</string>
+    <string name="timeline_reported">已举报</string>
+    <string name="str_timeline_send_error_tip">网络不给力，动态未发送 :(</string>
+    <string name="title_timeline_un_send">未发送动态</string>
+    <string name="str_re_send">重新发送</string>
+    <string name="str_time_morning">早上</string>
+    <string name="str_time_forenoon">上午</string>
+    <string name="str_time_noon">中午</string>
+    <string name="str_time_afternoon">下午</string>
+    <string name="str_time_night">晚上</string>
+    <string name="str_good">好</string>
+    <string name="str_display_name_oneone">One仔本仔</string>
+
+    <!-- permission -->
+    <string name="permission_title">权限</string>
+    <string name="permission_confirm">去开启</string>
+    <string name="permission_camera_title">开启相机权限</string>
+    <string name="permission_camera_content">未获得相机权限，会导致无法使用相机</string>
+    <string name="permission_storage_title">开启访问照片权限</string>
+    <string name="permission_storage_content">未获得访问照片权限，会导致无法显示和保存照片</string>
+    <string name="str_post_reject">审核不通过</string>
+    <string name="str_my_singles_count">共%1$s人</string>
+    <string name="permission_audio_title">开启录音权限</string>
+    <string name="permission_audio_content">未获得录音权限，会导致无法使用语音</string>
+    <string name="str_no_connect_singles">还没有连接的Single</string>
+    <string name="str_activity_singles_bind_wechat">绑定微信后即可邀请Single</string>
+    <string name="str_activity_matcher_bind_wechat">绑定微信后即可邀请Matcher</string>
+    <string name="str_wx_auth_page_wx_auth_now">现在绑定</string>
+    <string name="str_add_to_your_singles">加入了我的单身团，快来围观</string>
+
+    <!-- version -->
+    <string name="version_update_new_title">发现新版本</string>
+    <string name="version_update_new_confirm">立即安装</string>
+    <string name="version_update_new_title_hint">最新版本</string>
+    <string name="str_story_photo_upload_continue">再来几张生活照片</string>
+    <string name="str_edit_mystory">编辑我的故事</string>
+    <string name="str_profile_story_photo_delete">要删除该图片和图片故事吗？</string>
+    <string name="str_profile_story_btn_delete">删除</string>
+
+    <!-- location -->
+    <string name="location_failed_select_city">定位失败，请选择城市</string>
+
+    <!-- dialog -->
+    <string name="str_dialog_no_feel_title">点击无感后，该推荐人会消失哟</string>
+    <string name="str_dialog_no_feel_cancel">取消</string>
+    <string name="str_dialog_no_feel_confirm">无感</string>
+
+    <!-- toast -->
+    <string name="str_toast_person_set_confirm_toast">倒计时结束后，将为你推荐更合适的OneOne</string>
+    <string name="str_dialog_clean_unsend_timeline">是否清空未发送的动态？</string>
+    <string name="str_user_auth_eror">该用户仅在微信端授权，暂无详细资料页”</string>
+
+    <!-- refresh -->
+    <string name="refresh_footer_loading">加载中...</string>
+    <string name="refresh_footer_nomore_data_timeline">没有更多动态了</string>
+    <string name="refresh_footer_nomore_data_single">没有更多单身了</string>
+    <string name="refresh_footer_nomore_data_record">没有更多记录了</string>
+    <string name="str_kick_out_tip">账号已在其他设备登陆</string>
+    <string name="str_known">知道了</string>
+    <string name="str_bellow">以上</string>
+    <string name="str_above">以下</string>
+    <string name="str_unfollow_tip">不再关注 %1$s 吗？</string>
+    <string name="str_unfollow">不再关注</string>
+    <string name="str_report_dialog_title">请选择举报原因</string>
+
+</resources>

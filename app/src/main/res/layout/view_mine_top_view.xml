@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="235dp"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/bg_click_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/user_info_modify_btn"
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/view_mine_top_modify_user_info_btn_bg"
+        android:visibility="gone" />
+
+    <com.oneone.widget.AvatarImageView
+        android:id="@+id/user_photo_iv"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <RelativeLayout
+        android:id="@+id/user_name_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_photo_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/user_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_black_2"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/user_matcher_tag_iv"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/user_name_tv"
+            android:background="@drawable/icon_matcher_bg"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/user_company_and_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/text_blue_1"
+        android:textSize="14dp" />
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_company_and_title_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp">
+
+        <RelativeLayout
+            android:id="@+id/dynamic_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:id="@+id/dynamic_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/text_black_3"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dynamic_count_tv"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_mine_page_top_view_dynamic_count"
+                android:textColor="@color/text_gray_2"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/attention_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/attention_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/text_black_3"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/attention_count_tv"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_mine_page_top_view_attention_count"
+                android:textColor="@color/text_gray_2"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/be_attention_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/be_attention_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/text_black_3"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/be_attention_count_tv"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_mine_page_top_view_be_attention_count"
+                android:textColor="@color/text_gray_2"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

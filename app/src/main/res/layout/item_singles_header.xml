@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_singles_header_btn_invite"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/dimen_dp_22"
+        android:background="@color/color_796CF0" />
+
+    <ImageView
+        android:id="@+id/item_singles_header_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_dp_30"
+        android:src="@drawable/ic_singles_header_banner" />
+
+    <TextView
+        android:id="@+id/item_singles_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_singles_header_banner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_dp_12"
+        android:text="@string/str_my_singles"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/dimen_sp_20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_singles_header_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_singles_header_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_dp_8"
+        android:text="@string/str_my_singles_count"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/dimen_sp_14" />
+
+    <LinearLayout
+        android:id="@+id/item_singles_header_btn_invite"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_45"
+        android:layout_below="@+id/item_singles_header_count"
+        android:layout_marginEnd="@dimen/dimen_dp_23"
+        android:layout_marginStart="@dimen/dimen_dp_23"
+        android:layout_marginTop="@dimen/dimen_dp_18"
+        android:background="@drawable/shape_white_radius_6dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="@dimen/dimen_dp_8"
+            android:drawableStart="@drawable/ic_single_share"
+            android:gravity="center"
+            android:text="@string/str_invite_more_friends"
+            android:textColor="@color/color_796CF0" />
+    </LinearLayout>
+</RelativeLayout>

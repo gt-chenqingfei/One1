@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_toolbar"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_CAD3E2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_dp_15"
+            android:text="@string/timeline_report_reason_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dimen_dp_15"
+            android:background="@color/color_CAD3E2" />
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_title"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/cb_report_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_dp_25"
+            android:drawableRight="@drawable/checkbox_timeline_report_selector"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_dp_20"
+            android:tag="3"
+            android:text="@string/timeline_report_reason_ad"
+            android:textColor="@color/color_3E4F6C"
+            android:textSize="@dimen/dimen_dp_18" />
+
+        <RadioButton
+            android:id="@+id/cb_report_eroticism"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_dp_25"
+            android:drawableRight="@drawable/checkbox_timeline_report_selector"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_dp_20"
+            android:tag="4"
+            android:text="@string/timeline_report_reason_eroticism"
+            android:textColor="@color/color_3E4F6C"
+            android:textSize="@dimen/dimen_dp_18" />
+
+        <RadioButton
+            android:id="@+id/cb_report_swindle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_dp_25"
+            android:drawableRight="@drawable/checkbox_timeline_report_selector"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_dp_20"
+            android:tag="5"
+            android:text="@string/timeline_report_reason_swindle"
+            android:textColor="@color/color_3E4F6C"
+            android:textSize="@dimen/dimen_dp_18" />
+
+        <RadioButton
+            android:id="@+id/cb_report_llegality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_dp_25"
+            android:drawableRight="@drawable/checkbox_timeline_report_selector"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_dp_20"
+            android:tag="6"
+            android:text="@string/timeline_report_reason_llegality"
+            android:textColor="@color/color_3E4F6C"
+            android:textSize="@dimen/dimen_dp_18" />
+
+        <RadioButton
+            android:id="@+id/cb_report_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_dp_25"
+            android:drawableRight="@drawable/checkbox_timeline_report_selector"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_dp_20"
+            android:tag="7"
+            android:text="@string/timeline_report_reason_other"
+            android:textColor="@color/color_3E4F6C"
+            android:textSize="@dimen/dimen_dp_18" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_dp_15"
+        android:layout_marginLeft="@dimen/dimen_dp_48"
+        android:layout_marginRight="@dimen/dimen_dp_48"
+        android:background="@drawable/shap_blue_bg"
+        android:text="@string/im_bottom_report_text"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

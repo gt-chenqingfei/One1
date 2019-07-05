@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:background="@color/gray_line" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/sub_title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <com.oneone.widget.AvatarImageView
+                    android:id="@+id/user_photo_iv"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="23dp" />
+
+                <View
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_below="@id/user_photo_iv"
+                    android:layout_marginLeft="-27dp"
+                    android:layout_marginTop="-35dp"
+                    android:layout_toRightOf="@id/user_photo_iv"
+                    android:background="@drawable/user_photo_camera_icon" />
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="23dp"
+                    android:background="@drawable/view_mine_line_item_right_arrow_bg" />
+
+                <TextView
+                    android:id="@+id/user_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dp"
+                    android:textColor="@color/text_black_2"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginStart="@dimen/dimen_dp_23"
+                    android:background="@color/color_CAD3E2" />
+
+                <com.oneone.modules.user.view.ModifyUserBasicLineItem
+                    android:id="@+id/birthdate_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.oneone.modules.user.view.ModifyUserBasicLineItem
+                    android:id="@+id/ususally_live_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.oneone.modules.user.view.ModifyUserBasicLineItem
+                    android:id="@+id/sex_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginStart="@dimen/dimen_dp_23"
+                    android:background="@color/color_CAD3E2" />
+
+                <com.oneone.modules.user.view.ModifyUserBasicLineItem
+                    android:id="@+id/occupation_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.oneone.modules.user.view.ModifyUserBasicLineItem
+                    android:id="@+id/company_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginStart="@dimen/dimen_dp_23"
+                    android:background="@color/color_CAD3E2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <RelativeLayout
+        android:layout_width="338dp"
+        android:layout_height="182dp">
+        <EditText
+            android:id="@+id/user_sign_et"
+            android:layout_width="338dp"
+            android:layout_height="182dp"
+            android:maxLength="30"
+            android:hint="@string/str_modify_user_sign_hint_text"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_white_radius_5dp"
+            android:gravity="left|top"
+            android:padding="17dp"
+            android:textSize="14dp"
+            android:textColor="@color/text_blue_1"
+            />
+        <TextView
+            android:id="@+id/et_limit_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/text_blue_1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

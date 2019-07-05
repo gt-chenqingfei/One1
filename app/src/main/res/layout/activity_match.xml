@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:orientation="vertical"
+                android:paddingBottom="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="68dp"
+                    android:layout_marginTop="51dp"
+                    android:text="@string/str_in_tune_page_title_text"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/in_tune_val_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="68dp"
+                    android:layout_marginTop="2dp"
+                    android:text="87%"
+                    android:textColor="@color/white"
+                    android:textSize="36dp" />
+
+                <RelativeLayout
+                    android:id="@+id/in_tune_val_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="23dp">
+
+                    <LinearLayout
+                        android:layout_width="299dp"
+                        android:layout_height="215dp"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/view_point_of_love_title_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/str_in_tune_page_view_point_of_love_title_text"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+
+                            <RelativeLayout
+                                android:id="@+id/view_point_of_love_val_layout"
+                                android:layout_width="32dp"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_love_title_tv"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="13dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="15dp"
+                                    android:background="@drawable/shap_yellow_in_tune_val" />
+
+                                <ImageView
+                                    android:id="@+id/view_point_of_love_val_iv"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:layout_alignParentBottom="true" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/view_point_of_love_val_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_love_val_layout"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="2dp"
+                                android:textColor="@color/white"
+                                android:textSize="11dp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/view_point_of_character_title_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/str_in_tune_page_view_point_of_character_title_text"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+
+                            <RelativeLayout
+                                android:id="@+id/view_point_of_character_val_layout"
+                                android:layout_width="32dp"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_character_title_tv"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="13dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="15dp"
+                                    android:background="@drawable/shap_yellow_in_tune_val" />
+
+                                <ImageView
+                                    android:id="@+id/view_point_of_character_val_iv"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:layout_alignParentBottom="true" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/view_point_of_character_val_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_character_val_layout"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="2dp"
+                                android:textColor="@color/white"
+                                android:textSize="11dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/view_point_of_moral_title_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/str_in_tune_page_view_point_of_moral_text"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+
+                            <RelativeLayout
+                                android:id="@+id/view_point_of_moral_val_layout"
+                                android:layout_width="32dp"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_moral_title_tv"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="13dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="15dp"
+                                    android:background="@drawable/shap_yellow_in_tune_val" />
+
+                                <ImageView
+                                    android:id="@+id/view_point_of_moral_val_iv"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:layout_alignParentBottom="true" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/view_point_of_moral_val_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_moral_val_layout"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="2dp"
+                                android:textColor="@color/white"
+                                android:textSize="11dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/view_point_of_live_habit_title_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/str_in_tune_page_view_point_of_live_habit_text"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+
+                            <RelativeLayout
+                                android:id="@+id/view_point_of_live_habit_val_layout"
+                                android:layout_width="32dp"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_live_habit_title_tv"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="13dp">
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="15dp"
+                                    android:background="@drawable/shap_yellow_in_tune_val" />
+
+                                <ImageView
+                                    android:id="@+id/view_point_of_live_habit_val_iv"
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:layout_alignParentBottom="true" />
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/view_point_of_live_habit_val_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@id/view_point_of_live_habit_val_layout"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="2dp"
+                                android:textColor="@color/white"
+                                android:textSize="11dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answer_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="60dp">
+
+                <ListView
+                    android:id="@+id/already_answer_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ListView
+                    android:id="@+id/not_answer_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <!--<Button
+        android:id="@+id/back_btn"
+        android:layout_width="11dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/white_left_arrow" />-->
+</RelativeLayout>

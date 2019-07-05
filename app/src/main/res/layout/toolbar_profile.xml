@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/widget_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_56"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="top"
+    android:layout_marginBottom="0dp"
+    android:background="@color/color_transparent"
+    app:contentInsetStart="0dp"
+    app:paddingStart="0dp"
+    app:theme="@style/ToolbarPopupTheme">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/widget_toolbar_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/widget_toolbar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_dp_16"
+                android:layout_marginRight="@dimen/dimen_dp_16" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/widget_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="ddd"
+                android:singleLine="true"
+                android:textSize="@dimen/dimen_sp_16" />
+
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/widget_toolbar_menu_image"
+                android:layout_width="@dimen/dimen_dp_40"
+                android:layout_height="@dimen/dimen_dp_40"
+                android:layout_centerVertical="true"
+                android:scaleType="center"
+                android:layout_marginRight="@dimen/dimen_dp_16"
+                android:layout_toLeftOf="@+id/widget_toolbar_two_image"
+                android:src="@drawable/ic_profile_menu" />
+
+            <ImageView
+                android:scaleType="center"
+                android:visibility="gone"
+                android:id="@+id/widget_toolbar_two_image"
+                android:layout_width="@dimen/dimen_dp_40"
+                android:layout_height="@dimen/dimen_dp_40"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_dp_16"
+                android:src="@drawable/ic_profile_close" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

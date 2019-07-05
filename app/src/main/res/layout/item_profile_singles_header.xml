@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_74"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:drawablePadding="@dimen/dimen_dp_10"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_single"
+        android:id="@+id/item_profile_singles_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_dp_12"
+        android:text="@string/str_profile_singles_header_title"
+        android:textColor="@color/color_7E94BB"
+        android:textSize="@dimen/dimen_sp_13"
+        android:textStyle="bold" />
+
+</RelativeLayout>

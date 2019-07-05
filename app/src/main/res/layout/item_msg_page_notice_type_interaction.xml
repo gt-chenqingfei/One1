@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp">
+
+        <RelativeLayout
+            android:id="@+id/user_photo_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/new_interaction_iv"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/blue_point_bg" />
+
+            <com.oneone.widget.AvatarImageView
+                android:id="@+id/user_photo_iv"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="18dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/name_action_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/user_photo_layout"
+            >
+            <TextView
+                android:id="@+id/user_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/text_black_2"
+                />
+
+            <TextView
+                android:id="@+id/user_action_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/text_gray_2"
+                android:layout_toRightOf="@id/user_name_tv"
+                android:layout_marginLeft="5dp"
+                android:text="@string/str_my_msg_interaction_norice_user_action_support"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textColor="@color/color_CAD3E2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:text="13:39"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/user_photo_layout"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="7dp"
+            android:layout_below="@id/name_action_layout"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/shap_stoke_gray_line_bg"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/my_interaction_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/text_gray_2"
+                android:text=""
+                />
+
+            <com.oneone.modules.feedback.view.NoScrollGridView
+                android:id="@+id/content_pic_gv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:numColumns="3"
+                android:columnWidth="50dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="6dp"
+                android:horizontalSpacing="6dp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="72dp"
+        android:background="@color/color_EAEBEF" />
+
+</LinearLayout>

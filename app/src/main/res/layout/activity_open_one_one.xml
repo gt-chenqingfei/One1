@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/invite_matcher_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/invite_matcher_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="268dp"
+        android:background="@color/single_flow_upload_pic_top_bg">
+
+        <TextView
+            android:id="@+id/invite_matcher_top_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/str_set_single_flow_page_invite_matcher_top_text_1"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/invite_matcher_top_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/invite_matcher_top_text_1"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/str_set_single_flow_page_invite_matcher_top_text_2"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <RelativeLayout
+            android:id="@+id/invite_matcher_qa_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_below="@id/invite_matcher_top_text_2"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:id="@+id/invite_matcher_qa_iv"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/set_single_flow_page_invite_matcher_qa_iv_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@id/invite_matcher_qa_iv"
+                android:text="@string/str_set_single_flow_page_invite_matcher_qa_text"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+
+        <com.oneone.framework.ui.widget.ZzHorizontalProgressBar
+            android:id="@+id/frag_profile_gender_edit_pb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_3"
+            android:layout_alignParentBottom="true"
+            app:zpb_bg_color="@color/single_flow_progress_bar_bg"
+            app:zpb_max="12"
+            app:zpb_padding="0dp"
+            app:zpb_pb_color="@color/single_flow_progress_bar_cur_process_bg"
+            app:zpb_progress="12"
+            app:zpb_show_mode="rect" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/invite_matcher_top_layout">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/set_single_flow_page_invite_matcher_bottom_bg" />
+
+        <LinearLayout
+            android:id="@+id/activity_matcher_invite_bind_wechat_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_dp_28"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_dp_38"
+                android:layout_marginStart="@dimen/dimen_dp_38"
+                android:background="@drawable/shape_white_radius_10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dimen_dp_20"
+                android:paddingLeft="@dimen/dimen_dp_30"
+                android:paddingRight="@dimen/dimen_dp_30"
+                android:paddingTop="@dimen/dimen_dp_20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_activity_matcher_bind_wechat"
+                    android:textColor="@color/color_3E4F6C"
+                    android:textSize="@dimen/dimen_sp_16"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_dp_12">
+
+                    <ImageView
+                        android:id="@+id/item_matcher_header_icon_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/my_matcher_group_what_is_your_matcher_item_1_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/item_matcher_header_icon_edit"
+                        android:layout_marginLeft="17dp"
+                        android:layout_toRightOf="@id/item_matcher_header_icon_edit"
+                        android:text="@string/str_my_matcher_group_explain_what_is_your_matcher_item_1_text"
+                        android:textColor="@color/text_black_2"
+                        android:textSize="@dimen/dimen_sp_13" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_dp_12">
+
+                    <ImageView
+                        android:id="@+id/item_matcher_header_icon_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/my_matcher_group_what_is_your_matcher_item_2_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/item_matcher_header_icon_group"
+                        android:layout_marginLeft="17dp"
+                        android:layout_toRightOf="@id/item_matcher_header_icon_group"
+                        android:text="@string/str_my_matcher_group_explain_what_is_your_matcher_item_2_text"
+                        android:textColor="@color/text_black_2"
+                        android:textSize="@dimen/dimen_sp_13" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_matcher_invite_bind_btn_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="@dimen/dimen_dp_58"
+                android:layout_marginStart="@dimen/dimen_dp_58"
+                android:layout_marginTop="@dimen/dimen_dp_28"
+                android:background="@drawable/shap_green_bg">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/dimen_dp_15"
+                    android:src="@drawable/ic_bind_wechat" />
+
+                <TextView
+                    android:id="@+id/tv_wx_auth_btn_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/str_wx_auth_page_wx_auth_now"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/activity_singles_invite_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/invite_matcher_invite_wx_friend_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="36dp"
+                android:text="@string/str_set_single_flow_page_invite_matcher_invite_wx_friend_text"
+                android:textColor="@color/single_flow_paragraph_text_color"
+                android:textSize="16dp" />
+
+            <com.oneone.support.share.ShareBox
+                android:id="@+id/invite_matcher_invite_share_box"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/invite_matcher_invite_wx_friend_title_tv"
+                android:layout_marginTop="16dp"
+                app:sb_icon="@drawable/selector_matcher_invite_friend_icon"
+                app:sb_text="@string/str_set_single_flow_page_invite_matcher_send_invite_text" />
+
+
+            <TextView
+                android:id="@+id/invite_matcher_open_oneone_btn_tv"
+                android:layout_width="255dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/invite_matcher_invite_share_box"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/step_11_btn_bg_1"
+                android:gravity="center"
+                android:text="@string/str_set_single_flow_page_invite_matcher_open_oneone_btn_text"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/invite_matcher_what_is_matcher_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_shade_1"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/shape_white_radius_10dp"
+            android:gravity="left"
+            android:padding="30dp"
+            android:text="@string/str_set_single_flow_page_invite_matcher_what_is_mather_text"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </RelativeLayout>
+</RelativeLayout>

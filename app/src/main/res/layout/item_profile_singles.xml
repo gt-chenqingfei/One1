@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_profile_singles_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_dp_21"
+        android:layout_marginStart="@dimen/dimen_dp_21"
+        android:layout_marginTop="@dimen/dimen_dp_22">
+
+        <com.oneone.widget.AvatarImageView
+            android:id="@+id/item_profile_singles_iv_avatar"
+            android:layout_width="@dimen/dimen_dp_51"
+            android:layout_height="@dimen/dimen_dp_51"
+            android:layout_centerVertical="true"
+            android:src="@drawable/default_avatar_matcher" />
+
+        <LinearLayout
+            android:id="@+id/item_profile_singles_ll_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/dimen_dp_11"
+            android:layout_toEndOf="@+id/item_profile_singles_iv_avatar"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/item_profile_singles_tv_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:maxWidth="@dimen/dimen_dp_104"
+                    android:singleLine="true"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/dimen_sp_13"
+                    android:textStyle="bold"
+                    tools:text="Fei" />
+
+                <TextView
+                    android:id="@+id/item_profile_singles_tv_new_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_dp_10"
+                    android:drawablePadding="@dimen/dimen_dp_4"
+                    android:drawableStart="@drawable/ic_match_score"
+                    android:textColor="@color/color_7E94BB"
+                    android:textSize="@dimen/dimen_sp_12"
+                    tools:text="new" />
+
+                <TextView
+                    android:id="@+id/item_profile_singles_tv_match_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_dp_15"
+                    android:drawablePadding="@dimen/dimen_dp_4"
+                    android:drawableStart="@drawable/item_discover_suggest_same_percent_bg"
+                    android:textColor="@color/color_7E94BB"
+                    android:textSize="@dimen/dimen_sp_12"
+                    tools:text="7" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_dp_5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/item_profile_singles_tv_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_7E94BB"
+                    android:textSize="@dimen/dimen_sp_13"
+                    tools:text="女，26，北京 朝阳 " />
+
+                <TextView
+                    android:id="@+id/item_profile_singles_tv_occ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_7E94BB"
+                    android:textSize="@dimen/dimen_sp_13"
+                    tools:text="文艺另类的攻城狮" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item_profile_singles_ll_picture_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_dp_21"
+        android:layout_marginStart="@dimen/dimen_dp_21"
+        android:layout_marginTop="@dimen/dimen_dp_17"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/dimen_dp_22"
+        android:background="@color/color_C4CFE1" />
+</LinearLayout>

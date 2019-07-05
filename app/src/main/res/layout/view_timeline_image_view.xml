@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.oneone.framework.ui.image.nine.NineGridImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ngl="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_timeline_image_view_nine_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    ngl:NineGridImageViewImgGap="3dp"
+    ngl:NineGridImageViewShowStyle="fill" />

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#6667fd</color>
+    <color name="green_blue">#edf3fc</color>
+    <color name="red">#FF6C6C</color>
+    <color name="brown">#F8C9C3</color>
+
+    <color name="color_6FA539">#6FA539</color>
+    <color name="color_CFC9FF">#CFC9FF</color>
+    <color name="color_EAEBEF">#EAEBEF</color>
+    <color name="color_CAD3E2">#CAD3E2</color>
+    <color name="color_67A1FF">#67A1FF</color>
+    <color name="color_3E4F6C">#3E4F6C</color>
+    <color name="color_FFF194">#FFF194</color>
+    <color name="color_F9F9FA">#F9F9FA</color>
+    <color name="color_C4CFE1">#C4CFE1</color>
+    <color name="color_4D566B">#4D566B</color>
+
+    <color name="text_black">#333333</color>
+    <color name="text_black_2">#3E4F6C</color>
+    <color name="text_black_3">#242528</color>
+    <color name="text_blue_1">#7E94BB</color>
+    <color name="text_gray_1">#c4cfe1</color>
+    <color name="text_gray_2">#6F7C91</color>
+    <color name="text_gray_3">#9DAEC7</color>
+    <color name="text_pink_1">#F5ABA1</color>
+
+    <color name="color_F9FAFA">#F9FAFA</color>
+    <color name="gray_line">#CAD3E2</color>
+    <color name="gray_line_2">#DBE8FA</color>
+
+    <color name="progress_from_color">#C89FFF</color>
+    <color name="progress_end_color">#6667FD</color>
+
+    <color name="text_white_hint">#a5ffffff</color>
+
+    <color name="black_shade_1">#66000000</color>
+    <color name="black_shade_4">#cc000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="stoke_bg_1">#d8dff5</color>
+
+    <color name="matcher_photo_border_left_bottom">#615BF9</color>
+    <color name="matcher_photo_border_right_top">#EF90FC</color>
+
+
+    <color name="text_login_page_count_down">#796cf0</color>
+    <color name="text_wx_auth_page_tag_1">#3e4f6c</color>
+    <color name="text_bind_phone_page_et">#7e94bb</color>
+
+    <!-- single flow -->
+    <color name="single_flow_content_bg_1">#947bf9</color>
+    <color name="single_flow_content_bg_2">#67a1ff</color>
+    <color name="single_flow_content_bg_3">#a76cf0</color>
+    <color name="single_flow_content_bg_4">#947bf9</color>
+    <color name="single_flow_content_bg_5">#6667fd</color>
+    <color name="single_flow_content_bg_6">#8678ff</color>
+    <color name="single_flow_content_bg_7">#67a1ff</color>
+    <color name="single_flow_content_bg_8">#22d0a5</color>
+    <color name="single_flow_content_bg_9">#f5aba1</color>
+    <color name="single_flow_content_bg_10">#996cf0</color>
+    <color name="single_flow_upload_pic_top_bg">#796cf0</color>
+    <color name="single_flow_paragraph_text_color">#3e4f6c</color>
+    <color name="single_flow_story_img_text">#7e94bb</color>
+
+
+    <color name="single_flow_progress_bar_bg">#685aed</color>
+    <color name="single_flow_progress_bar_cur_process_bg">#f5aba1</color>
+    <color name="single_flow_step_1_item_purple">#7859f7</color>
+
+    <!-- account exception -->
+    <color name="account_exception_black_text">#3E4F6C</color>
+    <color name="account_exception_blue_text">#7E94BB</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="chat_title_bg">#427BED</color>
+    <color name="google_red">#FFC93437</color>
+    <color name="google_blue">#FF375BF1</color>
+    <color name="google_yellow">#FFF7D23E</color>
+    <color name="google_green">#FF34A350</color>
+    <color name="color_975BEC">#975BEC</color>
+    <color name="color_F6F5F5">#F6F5F5</color>
+
+    <!-- topic -->
+    <color name="color_78BCFF">#78BCFF</color>
+    <drawable name="transparent">#00000000</drawable>
+
+</resources>

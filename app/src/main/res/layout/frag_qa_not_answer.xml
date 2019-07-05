@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        >
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clipChildren="false"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/qa_answer_complete_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_white_radius_5dp"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/qa_finish_icon_iv"
+            android:layout_width="183dp"
+            android:layout_height="96dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/qa_must_answer_finish_bg" />
+
+        <TextView
+            android:id="@+id/qa_finish_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qa_finish_icon_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/text_black_2"
+            android:textSize="14dp"
+            android:text="@string/str_my_qa_page_finish_text"
+            />
+    </RelativeLayout>
+</RelativeLayout>

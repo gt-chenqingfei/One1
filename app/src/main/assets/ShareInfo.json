@@ -1,0 +1,36 @@
+{
+  "matcherProfile":{
+    "title":"${NICKNAME}身边的单身朋友都在这儿了，你想认识吗？",
+    "description":"OneOne单身社区，促进美好关系发生",
+    "url":"/#/user/matcher?uid=${USER_ID}"
+  },
+  "selfMatcherProfile":{
+    "title":"我在OneOne当Matcher，快来支持我",
+    "description":"OneOne单身社区，促进美好关系发生",
+    "url":"/#/user/matcher?uid=${SELF_USER_ID}"
+  },
+  "selfSingleProfile":{
+    "title":"推荐一位优秀的单身给你",
+    "description":"OneOne单身社区，促进美好关系发生",
+    "url":"/#/user/single?uid=${SELF_USER_ID}"
+  },
+  "inviteMatcher":{
+    "title":"想知道你眼中的我是什么样子的？",
+    "description":"填写好友印象，帮助ta在OneOne单身社区展现真实自己",
+    "url":"/#/edit_impression?uid=${SELF_USER_ID}&sign=${SIGN}"
+  },
+  "singleProfile":{
+    "title":"推荐一位优秀的单身给你",
+    "description":"OneOne单身社区，促进美好关系发生",
+    "url":"/#/user/single?uid=${USER_ID}"
+  },
+  "host":{
+    "test":"http://oneone.zhelitech.xyz",
+    "online":"https://m.oneone.com"
+  },
+  "inviteSingle":{
+    "title":"我正在为优质单身牵线，希望能给你带来对的人",
+    "description":"加入OneOne单身社区，寻觅对的人",
+    "url":"/#/invite_single?uid=${SELF_USER_ID}&sign=${SIGN}"
+  }
+}

@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="90"
+        android:endColor="@color/single_flow_step_1_item_purple"
+        android:startColor="@color/text_bind_phone_page_et" />
+</shape>

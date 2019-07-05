@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.oneone.framework.ui.widget.SimplePullRecyclerView
+        android:id="@+id/frag_singles_simple_pull_rv_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/frag_singles_toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/frag_singles_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_796CF0">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/frag_singles_toolbar_back_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/dimen_dp_8"
+                    android:src="@drawable/ic_btn_back_light" />
+
+                <TextView
+                    android:id="@+id/frag_singles_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/str_my_singles"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/dimen_sp_16" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/frag_singles_toolbar_right_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/frag_singles_toolbar_container"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_marginBottom="@dimen/dimen_dp_15"
+        android:layout_marginEnd="@dimen/dimen_dp_12"
+        android:padding="@dimen/dimen_dp_5"
+        android:src="@drawable/ic_single_message"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/frag_singles_toolbar_right_menu_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/frag_singles_toolbar_container"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_marginBottom="@dimen/dimen_dp_15"
+        android:layout_marginEnd="@dimen/dimen_dp_37"
+        android:background="@drawable/shape_message_unread_bg"
+        android:padding="@dimen/dimen_dp_5"
+        android:text="20"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_sp_11"
+        android:visibility="gone" />
+
+</RelativeLayout>

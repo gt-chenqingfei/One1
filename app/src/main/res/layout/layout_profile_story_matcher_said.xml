@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_dp_20"
+    android:background="@color/color_EDF3FC">
+
+    <RelativeLayout
+        android:id="@+id/layout_profile_story_matcher_header_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_dp_40"
+        android:layout_marginStart="@dimen/dimen_dp_40"
+        android:layout_marginTop="@dimen/dimen_dp_40"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_profile_matcher_relation"
+            android:textColor="@color/color_3E4F6C"
+            android:textSize="@dimen/dimen_sp_16"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_matcher_relation" />
+
+    </RelativeLayout>
+
+    <com.oneone.framework.ui.widget.SimpleRecyclerView
+        android:id="@+id/layout_profile_story_matcher_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_profile_story_matcher_header_rl"
+        android:layout_marginTop="-25dp" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_profile_story_matcher_btn_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_profile_story_matcher_recycler_view"
+        android:layout_marginEnd="@dimen/dimen_dp_60"
+        android:layout_marginStart="@dimen/dimen_dp_60"
+        android:layout_marginTop="@dimen/dimen_dp_23"
+        android:background="@drawable/shape_purple_radius_41dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_dp_48"
+            android:drawablePadding="@dimen/dimen_sp_14"
+            android:drawableStart="@drawable/ic_matcher_relation_setting"
+            android:gravity="center"
+            android:text="@string/str_matcher_relation_manage"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/dimen_sp_14" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_profile_story_matcher_said_say_hi_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_profile_story_matcher_btn_setting"
+
+        android:layout_marginEnd="@dimen/dimen_dp_60"
+        android:layout_marginStart="@dimen/dimen_dp_60"
+        android:layout_marginTop="@dimen/dimen_dp_33"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <com.oneone.widget.AvatarImageView
+            android:id="@+id/layout_profile_story_matcher_iv_avatar"
+            android:layout_width="@dimen/dimen_dp_54"
+            android:layout_height="@dimen/dimen_dp_54"
+            android:src="@drawable/default_avatar_single" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_dp_14"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layout_profile_story_matcher_tv_say_hi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_profile_this_is_me"
+                android:textColor="@color/color_3E4F6C"
+                android:textSize="@dimen/dimen_sp_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_profile_nice_to_meet_you"
+                android:textColor="@color/color_3E4F6C"
+                android:textSize="@dimen/dimen_sp_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_profile_story_matcher_said_follow_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_profile_story_matcher_said_say_hi_ll"
+        android:layout_marginBottom="@dimen/dimen_dp_16">
+
+        <TextView
+            android:id="@+id/layout_profile_story_matcher_said_add_follow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_dp_10"
+            android:background="@drawable/bg_radius_white"
+            android:drawableStart="@drawable/ic_add_follow"
+            android:gravity="center"
+            android:paddingEnd="40dp"
+            android:paddingStart="40dp"
+            android:text="@string/str_follow"
+            android:textColor="@color/color_7879FF"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/layout_profile_story_matcher_said_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-40dp"
+            android:layout_marginTop="@dimen/dimen_dp_40"
+            android:layout_toEndOf="@+id/layout_profile_story_matcher_said_add_follow_btn"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_one" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_24">
+
+    <com.oneone.modules.timeline.view.LikeTypesView
+        android:id="@+id/view_timeline_bottom_like_view_like_types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/view_timeline_bottom_like_view_tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/view_timeline_bottom_like_view_like_types"
+        android:textColor="@color/color_7E94BB"
+        android:textSize="@dimen/dimen_sp_13"
+        tools:text="265" />
+
+    <ImageView
+        android:id="@+id/view_timeline_bottom_like_view_iv_praise_perform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_btn_praise" />
+
+    <ImageView
+        android:id="@+id/view_timeline_bottom_like_view_iv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="13dp"
+        android:layout_toStartOf="@+id/view_timeline_bottom_like_view_iv_praise_perform"
+        android:src="@drawable/ic_btn_chat"
+        android:visibility="invisible" />
+</RelativeLayout>

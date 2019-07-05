@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="story_view_iv_photo_delete" type="id"/>
+    <item name="story_view_iv_photo_edit" type="id"/>
+    <item name="story_view_menu_edit" type="id"/>
+</resources>

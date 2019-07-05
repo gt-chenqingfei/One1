@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_796CF0"
+    android:gravity="center_horizontal"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:background="@drawable/about_one_one_top_bg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="@string/str_about_oneone_welcome_text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:text="@string/str_about_oneone_what_is_oneone"
+        />
+    
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/app_logo_icon"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:id="@+id/version_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="12dp"
+        android:textColor="@color/color_CFC9FF"
+        />
+    
+    <TextView
+        android:id="@+id/user_protocol_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:text="@string/str_about_oneone_protocol_text"
+        />
+</LinearLayout>

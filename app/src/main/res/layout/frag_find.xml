@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/bg_frag_find" />
+
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/discover_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="13dp"
+            android:text="@string/str_discover_page_title"
+            />
+        
+        <Button
+            android:id="@+id/discover_filter_btn"
+            android:layout_width="42dp"
+            android:layout_height="20dp"
+            android:background="@drawable/discover_filter_btn_bg"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/discover_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        >
+        <android.support.v4.view.ViewPager
+            android:id="@+id/discover_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <RelativeLayout
+            android:id="@+id/item_discover_suggest_loading_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="560dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/shape_white_radius_5dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/item_discover_suggest_loading_view"
+                android:layout_width="152dp"
+                android:layout_height="152dp"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/frag_find_test_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_matcher_header_rl"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@color/blue">
+
+        <TextView
+            android:id="@+id/item_matcher_header_tv_your_matcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/str_my_matcher_group_explain_what_is_your_matcher"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sp_16" />
+
+        <Button
+            android:id="@+id/item_matcher_header_btn_your_matcher"
+            android:layout_width="@dimen/dimen_dp_14"
+            android:layout_height="@dimen/dimen_dp_8"
+            android:layout_alignLeft="@id/item_matcher_header_tv_your_matcher"
+            android:layout_below="@id/item_matcher_header_tv_your_matcher"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/white_down_arrow" />
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="73dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/my_matcher_group_what_is_your_matcher_icon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item_matcher_header_ll_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_matcher_header_rl"
+        android:orientation="vertical"
+        android:paddingBottom="18dp"
+        android:paddingLeft="33dp"
+        android:paddingRight="33dp"
+        android:paddingTop="18dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/item_matcher_header_icon_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/my_matcher_group_what_is_your_matcher_item_1_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/item_matcher_header_icon_edit"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@id/item_matcher_header_icon_edit"
+                android:text="@string/str_my_matcher_group_explain_what_is_your_matcher_item_1_text"
+                android:textColor="@color/text_black_2"
+                android:textSize="@dimen/dimen_sp_13" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:id="@+id/item_matcher_header_icon_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/my_matcher_group_what_is_your_matcher_item_2_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/item_matcher_header_icon_group"
+                android:layout_marginLeft="17dp"
+                android:layout_toRightOf="@id/item_matcher_header_icon_group"
+                android:text="@string/str_my_matcher_group_explain_what_is_your_matcher_item_2_text"
+                android:textColor="@color/text_black_2"
+                android:textSize="@dimen/dimen_sp_13" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

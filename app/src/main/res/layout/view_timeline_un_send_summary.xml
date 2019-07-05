@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_40">
+
+    <com.oneone.widget.AvatarImageView
+        android:id="@+id/view_timeline_summary_iv_avatar"
+        android:layout_width="@dimen/dimen_dp_40"
+        android:layout_height="@dimen/dimen_dp_40"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dimen_dp_10"
+        android:src="@drawable/default_avatar_single" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/view_timeline_summary_iv_avatar"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/view_timeline_summary_tv_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/dimen_sp_13"
+            android:textStyle="bold"
+            tools:text="One仔本仔" />
+
+        <TextView
+            android:id="@+id/view_timeline_summary_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_7E94BB"
+            android:textSize="@dimen/dimen_sp_12"
+            tools:text="One仔本仔" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_timeline_summary_tv_re_send"
+        android:layout_width="@dimen/dimen_dp_76"
+        android:layout_height="@dimen/dimen_dp_26"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_purple_radius_41dp"
+        android:gravity="center"
+        android:text="@string/str_re_send"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen_sp_12" />
+</RelativeLayout>

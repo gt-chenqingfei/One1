@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/color_CAD3E2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/dimen_dp_23"
+            android:layout_marginStart="@dimen/dimen_dp_23"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/activity_story_tags_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_dp_18"
+                android:background="@drawable/shape_radius_story_tags_1">
+
+                <ImageView
+                    android:id="@+id/step_5_img_tag_iv"
+                    android:layout_width="@dimen/dimen_dp_244"
+                    android:layout_height="@dimen/dimen_dp_120"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="35dp"
+                    android:src="@drawable/step_5_img_tag_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/step_5_top_tag_collection_inner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@color/white"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/step_5_top_tag_collection_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/single_flow_content_bg_5"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/step_5_tv_tag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/step_5_tv_tag_2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="18dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/str_set_single_flow_page_work_experence"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_sp_22" />
+
+                <TextView
+                    android:id="@+id/step_5_tv_tag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="@dimen/dimen_dp_5"
+                    android:text="@string/str_set_single_flow_page_tip_range_1_to_3"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_story_tags_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_dp_18"
+                android:background="@drawable/shape_radius_story_tags_2">
+
+                <ImageView
+                    android:id="@+id/step_6_img_tag_iv"
+                    android:layout_width="@dimen/dimen_dp_169"
+                    android:layout_height="@dimen/dimen_dp_176"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="32dp"
+                    android:src="@drawable/step_6_img_tag_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/step_6_top_tag_collection_inner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@color/white"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/step_6_top_tag_collection_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/single_flow_content_bg_6"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step_6_tv_tag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="18dp"
+                    android:text="@string/str_set_single_flow_page_tip_range_1_to_10"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/step_6_tv_tag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/step_6_tv_tag_2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="18dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/str_set_single_flow_page_skill_except_occupation"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_story_tags_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_dp_18"
+                android:background="@drawable/shape_radius_story_tags_3">
+
+                <ImageView
+                    android:id="@+id/step_7_img_tag_iv"
+                    android:layout_width="208dp"
+                    android:layout_height="221dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/step_7_img_tag_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/step_7_top_tag_collection_inner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@color/white"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/step_7_top_tag_collection_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/single_flow_content_bg_7"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step_7_tv_tag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="18dp"
+                    android:text="@string/str_set_single_flow_page_tip_range_3_to_10"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/step_7_tv_tag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/step_7_tv_tag_2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="18dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/str_set_single_flow_page_your_personality"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_story_tags_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_dp_18"
+                android:background="@drawable/shape_radius_story_tags_4">
+
+                <ImageView
+                    android:id="@+id/step_8_img_tag_iv"
+                    android:layout_width="265dp"
+                    android:layout_height="192dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/step_8_img_tag_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/step_8_top_tag_collection_inner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@color/white"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/step_8_top_tag_collection_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/single_flow_content_bg_8"
+                        android:textSize="14dp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step_8_tv_tag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="18dp"
+                    android:text="@string/str_set_single_flow_page_tip_range_1_to_10"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/step_8_tv_tag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/step_8_tv_tag_2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="18dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/str_set_single_flow_page_sepcial_experience"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_story_tags_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_dp_18"
+                android:background="@drawable/shape_radius_story_tags_5">
+
+                <ImageView
+                    android:id="@+id/step_9_img_tag_iv"
+                    android:layout_width="275dp"
+                    android:layout_height="156dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="67dp"
+                    android:background="@drawable/step_9_img_tag_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/step_9_top_tag_collection_inner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@color/white"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/step_9_top_tag_collection_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/single_flow_content_bg_9"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step_9_tv_tag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="18dp"
+                    android:text="@string/str_set_single_flow_page_tip_range_1_to_3"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/step_9_tv_tag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/step_9_tv_tag_2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="18dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/str_set_single_flow_page_your_creed"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_story_tags_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_dp_18"
+                android:background="@drawable/shape_radius_story_tags_6">
+
+                <ImageView
+                    android:id="@+id/step_10_img_tag_iv"
+                    android:layout_width="278dp"
+                    android:layout_height="144dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginTop="42dp"
+                    android:background="@drawable/step_10_img_tag_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/step_10_top_tag_collection_inner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@color/white"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/step_10_top_tag_collection_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/single_flow_content_bg_10"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/step_10_tv_tag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginStart="18dp"
+                    android:text="@string/str_set_single_flow_page_tip_range_1_to_10"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/step_10_tv_tag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/step_10_tv_tag_2"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="18dp"
+                    android:lineSpacingExtra="3dp"
+                    android:text="@string/str_set_single_flow_page_special_hobby"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_dp_135" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

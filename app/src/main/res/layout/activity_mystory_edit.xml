@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/activity_mystory_edit_iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_170"
+        android:layout_below="@id/widget_toolbar"
+        android:background="@color/color_7E94BB"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_below="@id/widget_toolbar"
+        android:src="@drawable/life_img_modify_img_bg"
+        android:id="@+id/activity_mystory_edit_iv_photo_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_dp_6"
+        android:layout_marginBottom="@dimen/dimen_dp_6"/>
+
+    <LinearLayout
+        android:id="@+id/activity_timeline_post_edit_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_mystory_edit_iv_photo"
+        android:layout_marginTop="-41dp"
+        android:background="@drawable/bg_white_radius_7dp_shadow"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_dp_12"
+        android:paddingEnd="@dimen/dimen_dp_18"
+        android:paddingStart="@dimen/dimen_dp_18"
+        android:paddingTop="@dimen/dimen_dp_18">
+
+        <EditText
+            android:maxLength="30"
+            android:id="@+id/activity_mystory_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:cursorVisible="true"
+            android:gravity="top|left"
+            android:hint="@string/timeline_post_hint"
+            android:maxHeight="300dp"
+            android:minHeight="182dp"
+            android:padding="10dp"
+            android:textColor="@color/color_3E4F6C"
+            android:textColorHint="@color/color_C4CFE1"
+            android:textCursorDrawable="@drawable/cursor_timeline_post_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/activity_mystory_tv_max_limit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="0"
+            android:textColor="@color/color_C4CFE1" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <com.oneone.framework.ui.widget.DampingScrollView
+        android:id="@+id/activity_profile_damping_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:nestedScrollingEnabled="false"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/activity_profile_dumpling_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_profile_dumpling_container"
+                android:layout_marginTop="@dimen/dimen_dp_negative_32">
+
+                <!-- 头部 -->
+                <FrameLayout
+                    android:id="@+id/activity_profile_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:orientation="horizontal" />
+
+                <View
+                    android:id="@+id/activity_profile_sliding_tab_layout_absolute"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_dp_48"
+                    android:layout_below="@+id/activity_profile_header"
+                    android:background="@color/color_white" />
+
+                <com.oneone.framework.ui.widget.MeasureViewPager
+                    android:id="@+id/activity_profile_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/activity_profile_sliding_tab_layout_absolute"
+                    android:background="@color/color_white" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_profile_sliding_tab_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_dp_48"
+                android:layout_marginTop="@dimen/dimen_dp_75"
+                android:background="@color/color_white"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/dimen_dp_16"
+                android:paddingStart="@dimen/dimen_dp_16">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/color_EDF3FC" />
+
+                <com.oneone.framework.ui.widget.tablayout.SlidingTabLayout
+                    android:id="@+id/activity_profile_sliding_tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:tl_indicator_color="@color/color_6667FD"
+                    app:tl_indicator_width_equal_title="true"
+                    app:tl_textSelectColor="@color/color_6667FD"
+                    app:tl_textUnselectColor="@color/color_7E94BB"
+                    app:tl_textsize="@dimen/dimen_sp_14"
+                    app:tl_underline_color="@color/color_EDF3FC"
+                    app:tl_underline_height="1dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </com.oneone.framework.ui.widget.DampingScrollView>
+
+
+</FrameLayout>

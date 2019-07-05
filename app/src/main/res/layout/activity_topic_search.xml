@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".modules.timeline.activity.TimeLineTopicSearchActivity">
+
+    <TextView
+        android:id="@+id/tv_topic_search_content_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dimen_dp_15"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="#话题"
+        android:textColor="@color/color_3E4F6C"
+        android:textSize="@dimen/dimen_sp_18"
+        android:visibility="gone" />
+
+    <com.oneone.framework.ui.widget.SimpleRecyclerView
+        android:id="@+id/topic_search_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/transparent" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_auto_flow_rl_display"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/item_auto_flow_tv_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dimen_dp_12"
+        android:paddingEnd="@dimen/dimen_dp_22"
+        android:paddingStart="@dimen/dimen_dp_22"
+        android:paddingTop="@dimen/dimen_dp_12"
+        android:textSize="@dimen/dimen_sp_14" />
+
+    <ImageView
+        android:id="@+id/item_auto_flow_iv_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/item_auto_flow_iv"
+        android:layout_alignRight="@+id/item_auto_flow_tv_display"
+        android:visibility="gone"/>
+
+</RelativeLayout>

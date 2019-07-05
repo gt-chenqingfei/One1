@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="23dp"
+    android:viewportHeight="23"
+    android:viewportWidth="28">
+
+    <path
+        android:name="Rectangle-9-Copy-2"
+        android:fillColor="#78BCFF"
+        android:pathData="M10,6 L21,6 C23.2091,6,25,7.79086,25,10 L25,22.15 L10,22.15
+C7.79086,22.15,6,20.3591,6,18.15 L6,10 C6,7.79086,7.79086,6,10,6 Z"
+        android:strokeWidth="1" />
+    <path
+        android:name="Path"
+        android:fillColor="#F8FAFF"
+        android:pathData="M6,0.5 L17,0.5 C20.0376,0.5,22.5,2.96243,22.5,6 L22.5,19.65 L6,19.65
+C2.96243,19.65,0.5,17.1876,0.5,14.15 L0.5,6 C0.5,2.96243,2.96243,0.5,6,0.5 Z"
+        android:strokeWidth="1" />
+    <path
+        android:name="Rectangle-9"
+        android:fillColor="#796CF0"
+        android:pathData="M6,2 C3.79086,2,2,3.79086,2,6 L2,14.15 C2,16.3591,3.79086,18.15,6,18.15
+L21,18.15 L21,6 C21,3.79086,19.2091,2,17,2 L6,2 Z"
+        android:strokeWidth="1" />
+    <path
+        android:name="Combined-Shape"
+        android:fillColor="#F8FAFF"
+        android:pathData="M12,10 L15.5,10 C16.0523,10,16.5,10.4477,16.5,11
+C16.5,11.5523,16.0523,12,15.5,12 L11,12
+C10.7239,12,10.4739,11.8881,10.2929,11.7071 C10.1119,11.5261,10,11.2761,10,11
+L10,8 C10,7.44772,10.4477,7,11,7 C11.5523,7,12,7.44772,12,8 L12,10 Z"
+        android:strokeWidth="1" />
+</vector>

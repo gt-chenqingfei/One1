@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_loading_dialog"
+    android:gravity="center"
+    android:minHeight="@dimen/dimen_dp_70"
+    android:minWidth="@dimen/dimen_dp_70"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_dp_10">
+
+    <ImageView
+        android:id="@+id/widget_loading_dialog_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/publicloading"/>
+
+    <TextView
+        android:id="@+id/widget_loading_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_dp_16"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="正在加载..."
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/dimen_sp_15"/>
+
+</LinearLayout>

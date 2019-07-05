@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:id="@+id/border_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white_radius_5dp">
+
+        <TextView
+            android:id="@+id/page_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/text_blue_1"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/qa_theme_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/page_count_tv"
+            android:layout_marginTop="35dp"
+            />
+
+        <TextView
+            android:id="@+id/qa_theme_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qa_theme_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/text_blue_1"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/qa_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qa_theme_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="38dp"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/text_black_2"
+            android:textSize="14dp" />
+
+        <ScrollView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/qa_title_tv"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            >
+            <LinearLayout
+                android:id="@+id/qa_choose_item_layout"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

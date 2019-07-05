@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_F6F5F5"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_profile_share_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_dp_25"
+        android:textColor="@color/color_6F7C91"
+        android:textSize="@dimen/dimen_sp_14"
+        tools:text="分享 慕岩 的个人主页" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_dp_35"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/dialog_profile_share_iv_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_dp_10"
+            android:src="@drawable/ic_share_wechat" />
+
+        <ImageView
+            android:id="@+id/dialog_profile_share_iv_moment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_dp_10"
+            android:layout_marginStart="@dimen/dimen_dp_75"
+            android:src="@drawable/ic_share_moment" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_profile_share_tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_60"
+        android:layout_marginTop="@dimen/dimen_dp_48"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/str_cancel"
+        android:textColor="@color/color_6F7C91"
+        android:textSize="@dimen/dimen_sp_18"
+        android:textStyle="bold" />
+
+</LinearLayout>

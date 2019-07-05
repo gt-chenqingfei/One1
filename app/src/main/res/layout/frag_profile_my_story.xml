@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.oneone.modules.profile.view.ProfileStorySummaryView
+        android:id="@+id/frag_profile_my_story_summary_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.oneone.modules.user.view.StoryView
+        android:id="@+id/frag_profile_my_story_story_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.oneone.modules.profile.view.ProfileStoryMatcherSaidView
+        android:id="@+id/frag_profile_my_story_matcher_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

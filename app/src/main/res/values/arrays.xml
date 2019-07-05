@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sex_array">
+        <item>男,1</item>
+        <item>女,2</item>
+    </string-array>
+    <string-array name="character_setting_array">
+        <item>鲜肉,11</item>
+        <item>小哥哥,12</item>
+        <item>大叔,13</item>
+        <item>少女,21</item>
+        <item>小姐姐,22</item>
+        <item>姐姐,23</item>
+    </string-array>
+    <string-array name="character_male_setting_array">
+        <item>鲜肉,11</item>
+        <item>小哥哥,12</item>
+        <item>大叔,13</item>
+    </string-array>
+    <string-array name="character_female_setting_array">
+        <item>少女,21</item>
+        <item>小姐姐,22</item>
+        <item>姐姐,23</item>
+    </string-array>
+
+    <string-array name="bodily_form_array">
+        <item>偏瘦,11</item>
+        <item>匀称,12</item>
+        <item>强壮,13</item>
+        <item>小胖,14</item>
+        <item>大胖,15</item>
+        <item>纤瘦,21</item>
+        <item>匀称,22</item>
+        <item>健美,23</item>
+        <item>圆润,24</item>
+        <item>丰满,25</item>
+    </string-array>
+
+    <string-array name="bodily_form_male_array">
+        <item>偏瘦,11</item>
+        <item>匀称,12</item>
+        <item>强壮,13</item>
+        <item>小胖,14</item>
+        <item>大胖,15</item>
+    </string-array>
+
+    <string-array name="bodily_form_female_array">
+        <item>纤瘦,21</item>
+        <item>匀称,22</item>
+        <item>健美,23</item>
+        <item>圆润,24</item>
+        <item>丰满,25</item>
+    </string-array>
+
+    <string-array name="family_info_array">
+        <item>独生子女,1</item>
+        <item>有兄弟姐妹,2</item>
+    </string-array>
+
+    <string-array name="religion_array">
+        <item>无宗教信仰,1</item>
+        <item>佛教,2</item>
+        <item>道教,3</item>
+        <item>基督教,4</item>
+        <item>伊斯兰教,5</item>
+        <item>天主教,6</item>
+        <item>其他,7</item>
+    </string-array>
+
+    <string-array name="eating_habits_array">
+        <item>无特殊习惯,1</item>
+        <item>素食主义,2</item>
+        <item>无肉不欢,3</item>
+    </string-array>
+
+
+    <string-array name="life_habits_array">
+        <item>没有规律,1</item>
+        <item>早睡早起,2</item>
+        <item>夜猫子,3</item>
+        <item>偶尔懒散,4</item>
+    </string-array>
+
+    <string-array name="smoking_habits_array">
+        <item>不吸烟，且反感吸烟,1</item>
+        <item>不吸烟，但不反感,2</item>
+        <item>偶尔吸烟,3</item>
+        <item>每天都吸烟,4</item>
+    </string-array>
+
+    <string-array name="drinking_habits_array">
+        <item>不喝酒,1</item>
+        <item>偶尔喝酒,2</item>
+        <item>每天离不开酒,3</item>
+    </string-array>
+
+    <string-array name="education_habits_array">
+        <item>小学,1</item>
+        <item>初中,2</item>
+        <item>高中,3</item>
+        <item>中专,4</item>
+        <item>大专,5</item>
+        <item>本科,6</item>
+        <item>硕士,7</item>
+        <item>博士,8</item>
+    </string-array>
+
+    <string-array name="income_array">
+        <item>10w以下,0,10</item>
+        <item>10w-20w,10,20</item>
+        <item>20w-30w,20,30</item>
+        <item>30w-50w,30,50</item>
+        <item>50w-100w,50,100</item>
+        <item>100w以上,100,0</item>
+    </string-array>
+    <string-array name="profile_4single_activity_sheet_share">
+        <item>分享</item>
+    </string-array>
+
+    <string-array name="profile_4single_activity_sheet_share_report">
+        <item>分享</item>
+        <item>举报</item>
+    </string-array>
+
+    <string-array name="sheet_timeline_menu_4_self">
+        <item>删除</item>
+    </string-array>
+
+    <string-array name="sheet_timeline_menu_4_other">
+        <item>举报</item>
+    </string-array>
+
+    <string-array name="sheet_story_menu_edit">
+        <item>重新上传图片</item>
+        <item>编辑图片故事</item>
+    </string-array>
+
+    <integer-array name="google_colors">
+        <item>@color/google_red</item>
+        <item>@color/google_blue</item>
+        <item>@color/google_yellow</item>
+        <item>@color/google_green</item>
+    </integer-array>
+
+    <string-array name="report_array">
+        <item>虚假资料,1</item>
+        <item>不礼貌,2</item>
+        <item>广告,3</item>
+        <item>色情,4</item>
+        <item>诈骗,5</item>
+        <item>违法,6</item>
+        <item>其他,7</item>
+    </string-array>
+
+
+    <string-array name="messages_array">
+        <item>How are you</item>
+        <item>Fine. And you?</item>
+        <item>Me, too. Is there any news today?</item>
+        <item>Yep! I got a news here: boom! Tomorrow is the end of The Walking Dead!</item>
+        <item>Are you kidding me?</item>
+        <item>Absolutely not!</item>
+        <item>Jesus, that\'s crazy</item>
+        <item>I thought no one would gonna to make it</item>
+        <item>That\'s cruel, I don\'t like it, maybe there is a favourable turn</item>
+        <item>Hope so</item>
+    </string-array>
+
+    <string-array name="conversation">
+        <item>test</item>
+        <item>History message 1</item>
+        <item>History message 2</item>
+        <item>History message 3</item>
+        <item>History message 4</item>
+        <item>History message 5</item>
+        <item>History message 6</item>
+        <item>History message 7</item>
+        <item>History message 8</item>
+        <item>History message 9</item>
+        <item>History message 10</item>
+    </string-array>
+
+</resources>

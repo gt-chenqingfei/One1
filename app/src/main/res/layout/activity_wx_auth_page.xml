@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green_blue">
+
+        <ImageView
+            android:id="@+id/wx_auth_phone_bg_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/wx_auth_phone_bg" />
+
+        <TextView
+            android:id="@+id/wx_auth_tag_tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wx_auth_phone_bg_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:text="@string/str_wx_auth_page_wx_auth_oneone"
+            android:textColor="@color/text_wx_auth_page_tag_1"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/wx_auth_tag_tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wx_auth_tag_tv_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:text="@string/str_wx_auth_page_wx_auth_explain"
+            android:textColor="@color/text_wx_auth_page_tag_1"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/wx_auth_btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/wx_auth_tag_tv_2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/dimen_dp_58"
+            android:layout_marginStart="@dimen/dimen_dp_58"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/shap_green_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dimen_dp_15"
+                android:src="@drawable/ic_bind_wechat" />
+
+            <TextView
+                android:id="@+id/tv_wx_auth_btn_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/str_wx_auth_page_wx_auth"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wx_login_origin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/wx_auth_btn_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/dimen_dp_58"
+            android:layout_marginStart="@dimen/dimen_dp_58"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_purple_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/dimen_dp_15"
+                android:src="@drawable/ic_bind_mobile" />
+
+            <TextView
+                android:id="@+id/tv_wx_auth_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/str_wx_auth_page_login_origin"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/wx_auth_bottom_bg"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+</LinearLayout>

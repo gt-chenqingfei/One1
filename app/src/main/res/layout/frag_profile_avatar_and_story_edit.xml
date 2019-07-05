@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/upload_pic_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/upload_pic_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:background="@color/single_flow_upload_pic_top_bg"
+        android:paddingTop="30dp">
+
+        <TextView
+
+            android:id="@+id/upload_pic_title_tag_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/str_set_single_flow_page_choose_pic_tv_1"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <com.oneone.framework.ui.widget.ZzHorizontalProgressBar
+            android:id="@+id/frag_profile_gender_edit_pb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_3"
+            android:layout_alignParentBottom="true"
+            app:zpb_bg_color="@color/single_flow_progress_bar_bg"
+            app:zpb_max="12"
+            app:zpb_padding="0dp"
+            app:zpb_pb_color="@color/single_flow_progress_bar_cur_process_bg"
+            app:zpb_progress="11"
+            app:zpb_show_mode="rect" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/upload_pic_bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/upload_pic_top_layout"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/upload_pic_bottom_step_1_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/upload_pic_bottom_step_1_tv_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="31dp">
+
+                        <TextView
+                            android:id="@+id/upload_pic_bottom_step_1_tv_tag_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Step 1"
+                            android:textColor="@color/blue"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/upload_pic_bottom_step_1_tv_tag_1"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@id/upload_pic_bottom_step_1_tv_tag_1"
+                            android:text="@string/str_set_single_flow_page_upload_user_mainly_page_photo"
+                            android:textColor="@color/text_wx_auth_page_tag_1"
+                            android:textSize="15dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/upload_pic_bottom_step_1_pic_content_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/upload_pic_bottom_step_1_tv_layout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="13dp">
+
+                        <LinearLayout
+                            android:id="@+id/upload_pic_bottom_step_1_pic_demo_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="94dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="94dp"
+                                android:layout_height="94dp"
+                                android:background="@drawable/step_11_pic_demo_1" />
+
+                            <ImageView
+                                android:layout_width="94dp"
+                                android:layout_height="94dp"
+                                android:layout_marginLeft="19dp"
+                                android:background="@drawable/step_11_pic_demo_2" />
+
+                            <ImageView
+                                android:layout_width="94dp"
+                                android:layout_height="94dp"
+                                android:layout_marginLeft="19dp"
+                                android:background="@drawable/step_11_pic_demo_3" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/upload_pic_bottom_step_1_pic_content_iv"
+                            android:layout_width="270dp"
+                            android:layout_height="270dp"
+                            android:visibility="gone"
+                            android:scaleType="fitXY"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/upload_pic_bottom_step_1_choose_pic_layout"
+                        android:layout_width="255dp"
+                        android:layout_height="48dp"
+                        android:layout_below="@id/upload_pic_bottom_step_1_pic_content_layout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="23dp"
+                        android:background="@drawable/step_11_btn_bg_1">
+
+                        <ImageView
+                            android:id="@+id/upload_pic_bottom_step_1_choose_pic_iv"
+                            android:layout_width="22dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dp"
+                            android:background="@drawable/photo_img_tag" />
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_toRightOf="@id/upload_pic_bottom_step_1_choose_pic_iv">
+
+                            <TextView
+                                android:id="@+id/upload_pic_bottom_step_1_choose_pic_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/str_set_single_flow_page_choose_user_photo_pic"
+                                android:textColor="@color/white"
+                                android:textSize="14dp" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/upload_pic_bottom_step_2_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/upload_pic_bottom_step_1_layout">
+
+                    <RelativeLayout
+                        android:id="@+id/upload_pic_bottom_step_2_tv_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="40dp">
+
+                        <TextView
+                            android:id="@+id/upload_pic_bottom_step_2_tv_tag_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Step 2"
+                            android:textColor="@color/blue"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/upload_pic_bottom_step_2_tv_tag_1"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@id/upload_pic_bottom_step_2_tv_tag_1"
+                            android:text="@string/str_set_single_flow_page_choose_user_live_pic"
+                            android:textColor="@color/text_wx_auth_page_tag_1"
+                            android:textSize="15dp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/upload_pic_bottom_step_2_tv_tag_case"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/upload_pic_bottom_step_2_tv_layout"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginRight="28dp"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="@string/str_set_single_flow_page_choose_user_live_pic_case"
+                        android:textColor="@color/text_wx_auth_page_tag_1"
+                        android:textSize="14dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/upload_pic_bottom_step_2_pic_content_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/upload_pic_bottom_step_2_tv_tag_case"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="22dp">
+
+                        <LinearLayout
+                            android:id="@+id/upload_pic_bottom_step_2_pic_demo_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="94dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="94dp"
+                                android:layout_height="94dp"
+                                android:background="@drawable/step_11_pic_demo_4" />
+
+                            <ImageView
+                                android:layout_width="94dp"
+                                android:layout_height="94dp"
+                                android:layout_marginLeft="19dp"
+                                android:background="@drawable/step_11_pic_demo_5" />
+
+                            <ImageView
+                                android:layout_width="94dp"
+                                android:layout_height="94dp"
+                                android:layout_marginLeft="19dp"
+                                android:background="@drawable/step_11_pic_demo_6" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/upload_pic_bottom_step_2_pic_item_content_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/upload_pic_bottom_step_2_choose_pic_layout"
+                        android:layout_width="255dp"
+                        android:layout_height="48dp"
+                        android:layout_below="@id/upload_pic_bottom_step_2_pic_content_layout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="23dp"
+                        android:background="@drawable/step_11_btn_bg_1">
+
+                        <ImageView
+                            android:id="@+id/upload_pic_bottom_step_2_choose_pic_iv"
+                            android:layout_width="24dp"
+                            android:layout_height="22dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="30dp"
+                            android:background="@drawable/life_img_tag" />
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_toRightOf="@id/upload_pic_bottom_step_2_choose_pic_iv">
+
+                            <TextView
+                                android:id="@+id/upload_pic_bottom_step_2_choose_pic_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/str_set_single_flow_page_choose_several_pic"
+                                android:textColor="@color/white"
+                                android:textSize="14dp" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/upload_pic_bottom_step_2_layout" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

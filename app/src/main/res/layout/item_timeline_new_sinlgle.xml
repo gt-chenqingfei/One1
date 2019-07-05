@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="@dimen/dimen_dp_12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_radius_4_border_edf3fc_1px"
+    android:paddingBottom="@dimen/dimen_dp_14"
+    android:paddingEnd="@dimen/dimen_dp_11"
+    android:paddingStart="@dimen/dimen_dp_11"
+    android:paddingTop="@dimen/dimen_dp_14">
+
+    <com.oneone.modules.timeline.view.TimeLineTopSummaryView
+        android:id="@+id/item_timeline_moment_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.oneone.modules.timeline.view.TimeLineNewSingleView
+        android:id="@+id/item_timeline_moment_new_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_timeline_moment_summary"
+        android:layout_marginTop="@dimen/dimen_dp_15" />
+
+    <com.oneone.modules.timeline.view.TimeLineBottomLikeView
+        android:id="@+id/item_timeline_moment_like_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_timeline_moment_new_single"
+        android:layout_marginTop="@dimen/dimen_dp_13" />
+
+</RelativeLayout>

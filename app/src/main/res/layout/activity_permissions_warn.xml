@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/dimen_dp_50"
+        android:paddingRight="@dimen/dimen_dp_50"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_below="@id/widget_toolbar">
+
+        <TextView
+            android:id="@+id/permissions_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_3E4F6C"
+            android:textSize="@dimen/dimen_sp_18" />
+
+        <TextView
+            android:id="@+id/permissions_tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_dp_20"
+            android:textColor="@color/text_blue_1"
+            android:textSize="@dimen/dimen_sp_14" />
+
+        <Button
+            android:id="@+id/permissions_bt_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_dp_50"
+            android:background="@drawable/shape_purple_radius_48dp"
+            android:text="@string/permission_confirm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sp_14" />
+
+    </LinearLayout>
+
+</RelativeLayout>

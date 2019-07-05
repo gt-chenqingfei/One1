@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/activity_profile_dumping_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_218"
+        android:adjustViewBounds="true"
+        android:background="@color/color_6667FD"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_dp_48"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.oneone.widget.AvatarImageView
+            android:id="@+id/layout_profile_header_view_4_matcher_iv_avatar"
+            android:layout_width="@dimen/dimen_dp_72"
+            android:layout_height="@dimen/dimen_dp_72"
+            android:src="@drawable/imagepicker_ic_default_image" />
+
+        <TextView
+            android:id="@+id/layout_profile_header_view_4_matcher_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_dp_18"
+            android:drawableEnd="@drawable/ic_mark_matcher"
+            android:drawablePadding="@dimen/dimen_dp_5"
+            tools:text="慕岩"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/dimen_sp_18" />
+
+        <TextView
+            android:id="@+id/layout_profile_header_view_4_matcher_tv_occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_dp_10"
+            tools:text="这里科技创始人，百合网联合网创始人"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/dimen_sp_13" />
+    </LinearLayout>
+</RelativeLayout>

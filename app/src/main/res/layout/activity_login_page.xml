@@ -1,0 +1,238 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/one_one_logo_iv"
+        android:layout_width="231dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:background="@drawable/one_one_login_page_logo" />
+
+    <RelativeLayout
+        android:id="@+id/login_page_layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/wx_login_btn_layout"
+            android:layout_width="260dp"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp"
+            android:background="@drawable/shap_green_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/str_login_page_login_by_wx_tv"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/login_btn_layout"
+            android:layout_width="260dp"
+            android:layout_height="54dp"
+            android:layout_above="@id/wx_login_btn_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/shap_purple_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/str_login_page_login_by_phone_tv"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_page_layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/protocol_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="32dp">
+
+            <RelativeLayout
+                android:id="@+id/verify_code_outer_layout"
+                android:layout_width="222dp"
+                android:layout_height="69dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/verify_code_et"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:digits="1234567890"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="@color/transparent"
+                    android:textCursorDrawable="@color/transparent" />
+
+                <LinearLayout
+                    android:id="@+id/verify_code_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:id="@+id/verify_code_tv_1"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/shap_white_verify_block"
+                        android:gravity="center"
+                        android:text="@string/str_login_page_input_veri_code_0"
+                        android:textColor="@color/text_gray_1"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/verify_code_tv_2"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="14dp"
+                        android:background="@drawable/shap_white_verify_block"
+                        android:gravity="center"
+                        android:text="@string/str_login_page_input_veri_code_1"
+                        android:textColor="@color/text_gray_1"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/verify_code_tv_3"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="14dp"
+                        android:background="@drawable/shap_white_verify_block"
+                        android:gravity="center"
+                        android:text="@string/str_login_page_input_veri_code_2"
+                        android:textColor="@color/text_gray_1"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/verify_code_tv_4"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="14dp"
+                        android:background="@drawable/shap_white_verify_block"
+                        android:gravity="center"
+                        android:text="@string/str_login_page_input_veri_code_3"
+                        android:textColor="@color/text_gray_1"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_protocol_oneone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_login_page_agree_protocol_notice"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/user_protocol_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_about_oneone_protocol_text"
+                    android:textColor="@color/color_796CF0"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/login_page_layout_2_input_phone_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_above="@id/protocol_layout"
+            android:layout_marginBottom="8dp">
+
+            <RelativeLayout
+                android:id="@+id/login_page_layout_2_input_phone_inner_layout"
+                android:layout_width="260dp"
+                android:layout_height="54dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shap_purple_bg">
+
+                <RelativeLayout
+                    android:id="@+id/login_page_layout_2_input_phone_inner_confirm_layout"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/circle_white_bg">
+
+                    <ImageView
+                        android:id="@+id/one_one_login_page_confirm_phone_right_arrow_iv"
+                        android:layout_width="15dp"
+                        android:layout_height="12dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/one_one_login_page_confirm_phone_right_arrow_bg" />
+
+                    <TextView
+                        android:id="@+id/one_one_login_page_confirm_phone_second_count_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="60s"
+                        android:textColor="@color/text_login_page_count_down"
+                        android:textSize="12dp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/login_page_layout_2_input_phone_inner_et"
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="52dp"
+                    android:background="@color/transparent"
+                    android:digits="1234567890"
+                    android:hint="@string/str_login_page_input_phone_tv"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_white_hint"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/login_page_layout_2_input_phone_left_arrow_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="11dp"
+                android:layout_toLeftOf="@id/login_page_layout_2_input_phone_inner_layout"
+                android:padding="@dimen/dimen_dp_10"
+                android:src="@drawable/one_one_login_page_left_arrow_bg" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

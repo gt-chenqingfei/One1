@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/group_add_headimg"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/dialog_warn_tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:gravity="center"
+            android:textColor="@color/color_black"
+            android:textSize="15sp"
+            tools:text="将该消息删除？" />
+
+        <include
+            layout="@layout/divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginEnd="@dimen/dimen_dp_20"
+            android:layout_marginStart="@dimen/dimen_dp_20"
+            android:layout_marginTop="@dimen/dimen_dp_26" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:id="@+id/dialog_warn_btn_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_marginStart="18dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/str_ok"
+                android:textColor="@color/color_black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/dialog_warn_btn_negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/str_cancel"
+                android:textColor="@color/color_black"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

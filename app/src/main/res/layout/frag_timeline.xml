@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.oneone.framework.ui.widget.SimplePullRecyclerView
+        android:id="@+id/fragment_timeline_simple_pull_rv_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frag_timeline_toolbar"/>
+
+    <FrameLayout
+        android:id="@+id/frag_timeline_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_56"
+        android:background="@color/color_796CF0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/dimen_dp_12"
+            android:layout_marginStart="@dimen/dimen_dp_12">
+
+            <TextView
+                android:id="@+id/frag_timeline_toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/frag_timeline_toolbar_title_time"
+                android:text="@string/str_my_singles"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/dimen_sp_20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/frag_timeline_toolbar_title_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="@dimen/dimen_dp_8"
+                android:text="2017年10月13日，星期四"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/dimen_sp_12" />
+
+            <LinearLayout
+                android:id="@+id/frag_timeline_toolbar_title_ll_dog_foot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="bottom">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_dog_foot" />
+
+                <TextView
+                    android:id="@+id/frag_timeline_toolbar_title_tv_dog_foot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_dp_6"
+                    android:text="10"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/dimen_sp_12" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <com.oneone.modules.timeline.view.TimeLineFloatingMenu
+        android:id="@+id/frag_timeline_floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:fm_button_interval="4dp"
+        app:fm_floating_direction="up">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/frag_timeline_fab_menu_image_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_timeline_floating_menu_pic"
+            app:backgroundTint="@color/color_white" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/frag_timeline_fab_menu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_timeline_floating_menu_text"
+            app:backgroundTint="@color/color_white" />
+
+
+    </com.oneone.modules.timeline.view.TimeLineFloatingMenu>
+</RelativeLayout>

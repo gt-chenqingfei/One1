@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_topic_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_80"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_796CF0" />
+
+    <TextView
+        android:id="@+id/item_topic_header_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_dp_17"
+        android:layout_marginStart="@dimen/dimen_dp_17"
+        android:layout_marginTop="@dimen/dimen_dp_17"
+        android:text="@string/timeline_topic_name"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/dimen_sp_17"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_resent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/item_topic_header_topic_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/dimen_dp_17"
+            android:layout_marginEnd="@dimen/dimen_dp_17"
+            android:layout_marginTop="@dimen/dimen_dp_17"
+            android:background="@drawable/shape_white_radius_48dp"
+            android:paddingBottom="@dimen/dimen_dp_3"
+            android:paddingLeft="@dimen/dimen_dp_10"
+            android:paddingRight="@dimen/dimen_dp_10"
+            android:paddingTop="@dimen/dimen_dp_3"
+            android:text="@string/str_re_send"
+            android:textColor="@color/color_F5ABA1"
+            android:textSize="@dimen/dimen_sp_12" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_topic_header_topic"
+        android:layout_marginEnd="@dimen/dimen_dp_12"
+        android:layout_marginStart="@dimen/dimen_dp_12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_dp_14"
+        android:background="@drawable/shape_topic_radius_4_border_78bcff_1px">
+
+        <RelativeLayout
+            android:id="@+id/item_topic_header_rl_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_106" >
+
+            <ImageView
+                android:id="@+id/iv_laugh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/bg_timeline_topic_laugh" />
+
+            <TextView
+                android:id="@+id/item_topic_header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_laugh"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:padding="@dimen/dimen_dp_15"
+                android:text="精神VS肉体出轨你更不能接受？"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_sp_23" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/item_topic_header_pic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_175"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

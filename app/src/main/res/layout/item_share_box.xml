@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/item_share_box_invite_rl"
+        android:layout_width="93dp"
+        android:layout_height="100dp"
+        android:background="@drawable/selector_singles_invite_friend_bg">
+
+        <ImageView
+            android:id="@+id/item_share_box_invite_iv_friend_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/item_share_box_invite_tv_friend_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_share_box_invite_iv_friend_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="@string/str_set_single_flow_page_invite_matcher_send_invite_text"
+            android:textColor="@color/color_selector_singles_invite_text"
+            android:textSize="@dimen/dimen_sp_13" />
+    </RelativeLayout>
+</LinearLayout>

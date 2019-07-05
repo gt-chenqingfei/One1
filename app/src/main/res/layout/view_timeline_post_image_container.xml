@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_dp_300"
+    android:orientation="vertical">
+
+    <com.oneone.framework.ui.widget.FlowLayout
+        android:id="@+id/activity_timeline_post_fl_image_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flChildSpacing="@dimen/dimen_dp_8"
+        app:flFlow="true"
+        app:flRowSpacing="@dimen/dimen_dp_8"/>
+
+</merge>

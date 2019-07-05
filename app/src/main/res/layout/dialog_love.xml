@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shade_eaa5f9_5d4bff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_love_dialog_avatar_bg"
+            android:gravity="center">
+
+            <com.oneone.modules.msg.widget.UserRelationPhotoLayout
+                android:id="@+id/love_dialog_relation_photo"
+                android:layout_width="@dimen/dimen_dp_161"
+                android:layout_height="@dimen/dimen_dp_92" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_dp_27"
+            android:src="@drawable/ic_wow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_dp_13"
+            android:text="@string/str_dialog_love_text"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/dimen_sp_24"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dialog_like_already_open"
+            android:layout_width="@dimen/dimen_dp_144"
+            android:layout_height="@dimen/dimen_dp_44"
+            android:layout_marginTop="@dimen/dimen_dp_14"
+            android:background="@drawable/shape_white_radius_40dp"
+            android:gravity="center"
+            android:text="@string/str_to_chat"
+            android:textColor="@color/color_7879FF" />
+
+    </LinearLayout>
+</RelativeLayout>

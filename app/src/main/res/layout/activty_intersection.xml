@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_3E4F6C">
+
+    <ImageView
+        android:layout_width="@dimen/dimen_dp_120"
+        android:layout_height="@dimen/dimen_dp_65"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_dp_52"
+        android:src="@drawable/intersection_top" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimen_dp_325"
+        android:layout_height="@dimen/dimen_dp_520"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_dp_101"
+        android:background="@drawable/shape_white_radius_8dp">
+
+        <LinearLayout
+            android:id="@+id/ll_our"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_dp_31"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_intersection_our"
+                android:textSize="@dimen/dimen_sp_18" />
+
+            <TextView
+                android:id="@+id/tv_intersection_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_6667FD"
+                android:textSize="@dimen/dimen_sp_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_intersection"
+                android:textSize="@dimen/dimen_sp_18" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_interaction_friend_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_our"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_dp_31"
+            android:text="@string/str_intersection_friend"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_friend"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_79"
+            android:layout_below="@+id/tv_interaction_friend_num"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/dimen_sp_20"
+            android:layout_marginRight="@dimen/dimen_sp_20"
+            android:layout_marginTop="@dimen/dimen_dp_10"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_interaction_matcher_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclerview_friend"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_dp_31"
+            android:text="@string/str_intersection_matcher"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_matcher"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_dp_79"
+            android:layout_below="@+id/tv_interaction_matcher_num"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dimen_sp_20"
+            android:layout_marginRight="@dimen/dimen_sp_20"
+            android:layout_marginTop="@dimen/dimen_dp_10"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recyclerview_matcher"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dimen_dp_10"
+            android:layout_marginTop="@dimen/dimen_dp_31"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <ImageView
+            android:layout_width="@dimen/dimen_dp_105"
+            android:layout_height="@dimen/dimen_dp_118"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/intersection_tag_pic" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

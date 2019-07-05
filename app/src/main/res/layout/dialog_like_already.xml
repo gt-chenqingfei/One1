@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dialog_like_already_fl"
+        android:layout_width="@dimen/dimen_dp_258"
+        android:layout_height="@dimen/dimen_dp_258"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_like"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="@dimen/dimen_sp_36"
+            android:textStyle="bold"
+            android:text="@string/str_like_dialog_send_title"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_dp_10"
+            />
+
+        <TextView
+            android:textSize="@dimen/dimen_sp_14"
+            android:gravity="center"
+            android:text="@string/str_like_dialog_send_tv"
+            android:layout_marginBottom="@dimen/dimen_dp_37"
+            android:textColor="@color/color_DBE8FA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_like_already_open"
+        android:layout_width="@dimen/dimen_dp_144"
+        android:layout_height="@dimen/dimen_dp_44"
+        android:layout_below="@+id/dialog_like_already_fl"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_white_radius_40dp"
+        android:gravity="center"
+        android:text="@string/str_open_dialog"
+        android:textColor="@color/color_7879FF"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_radius_6dp"
+    android:layout_marginStart="@dimen/dimen_dp_20"
+    android:layout_marginEnd="@dimen/dimen_dp_20"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/dialog_customer_relation_et_relation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_54"
+        android:layout_marginEnd="@dimen/dimen_dp_29"
+        android:layout_marginStart="@dimen/dimen_dp_29"
+        android:layout_marginTop="@dimen/dimen_dp_29"
+        android:background="@drawable/shape_black_transparent_radius_48dp"
+        android:gravity="center"
+        android:textColor="@color/color_6667FD"
+        android:textColorHint="@color/color_C4CFE1"
+        android:textSize="@dimen/dimen_sp_14" />
+
+    <TextView
+        android:id="@+id/dialog_customer_relation_btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_customer_relation_et_relation"
+        android:layout_marginBottom="@dimen/dimen_dp_29"
+        android:layout_marginTop="@dimen/dimen_dp_24"
+        android:gravity="center"
+        android:text="@string/str_ok"
+        android:textColor="@color/color_6667FD"
+        android:textSize="@dimen/dimen_sp_18" />
+</RelativeLayout>

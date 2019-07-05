@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/activity_matcher_relation_set_ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_toolbar"
+        android:background="@color/color_796CF0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_matcher_relation_set_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_dp_18"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/dimen_sp_18"
+            android:textStyle="bold"
+            tools:text="韩梅梅想知道你对TA的印象 :)" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="@dimen/dimen_dp_24"
+            android:background="@color/color_685AED">
+
+            <View
+                android:id="@+id/activity_matcher_relation_set_progress_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/single_flow_progress_bar_cur_process_bg" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/activity_matcher_relation_set_ll_relation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_matcher_relation_set_button_next_and_complete"
+        android:layout_below="@+id/activity_matcher_relation_set_ll_title"
+        android:layout_margin="@dimen/dimen_dp_24"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.oneone.widget.AutoFlowView
+            android:id="@+id/activity_matcher_relation_set_flow_layout_tags_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<com.oneone.framework.ui.widget.FlowLayout-->
+        <!--android:id="@+id/activity_matcher_relation_set_flow_layout_tags_container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:flChildSpacing="@dimen/dimen_dp_8"-->
+        <!--app:flFlow="true"-->
+        <!--app:flRowSpacing="@dimen/dimen_dp_8" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/activity_matcher_relation_set_tv_relation_add"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/dimen_dp_8"-->
+        <!--android:background="@drawable/shape_black_transparent_radius_48dp"-->
+        <!--android:paddingBottom="@dimen/dimen_dp_12"-->
+        <!--android:paddingEnd="@dimen/dimen_dp_22"-->
+        <!--android:paddingStart="@dimen/dimen_dp_22"-->
+        <!--android:paddingTop="@dimen/dimen_dp_12"-->
+        <!--android:text="@string/str_activity_matcher_relation_set"-->
+        <!--android:textColor="@color/color_selector_white_purple"-->
+        <!--android:textSize="@dimen/dimen_sp_14" />-->
+        <!--</LinearLayout>-->
+        <!--</ScrollView>-->
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_matcher_relation_set_ll_matcher_said"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_dp_182"
+        android:layout_below="@+id/activity_matcher_relation_set_ll_title"
+        android:layout_marginEnd="@dimen/dimen_dp_23"
+        android:layout_marginStart="@dimen/dimen_dp_23"
+        android:layout_marginTop="@dimen/dimen_dp_19"
+        android:background="@drawable/shape_white_radius_4dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_dp_12"
+        android:paddingEnd="@dimen/dimen_dp_17"
+        android:paddingStart="@dimen/dimen_dp_17"
+        android:paddingTop="@dimen/dimen_dp_17"
+        android:visibility="visible">
+
+
+        <EditText
+            android:id="@+id/activity_matcher_relation_set_et_matcher_said"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/color_white"
+            android:textCursorDrawable="@null"
+            android:gravity="left"
+            android:maxLength="300" />
+
+        <TextView
+            android:id="@+id/tv_matcher_relation_input_num_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="0"
+            android:textColor="@color/color_C4CFE1"
+            android:textSize="@dimen/dimen_sp_14" />
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/activity_matcher_relation_set_button_next_and_complete"
+        android:layout_width="@dimen/dimen_dp_190"
+        android:layout_height="@dimen/dimen_dp_54"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_dp_52"
+        android:background="@drawable/shape_purple_radius_41dp"
+        android:gravity="center"
+        android:text="@string/str_next"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/dimen_sp_16" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="327dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_white_radius_5dp"
+    >
+    <TextView
+        android:id="@+id/qa_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="34dp"
+        android:textSize="14dp"
+        android:textColor="@color/text_black_2"
+        />
+    <LinearLayout
+        android:id="@+id/qa_answer_item_layout"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/qa_title_tv"
+        android:paddingTop="25dp"
+        android:paddingBottom="27dp"
+        android:orientation="vertical"
+        />
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile_dumping_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_profile_header_view_4_single_ll_like_and_feel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/layout_profile_header_view_4_single_iv_feel"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:src="@drawable/selector_nofeel_status" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/layout_profile_header_view_4_single_iv_like"
+            android:src="@drawable/selector_like_status"
+            android:layout_width="78dp"
+            android:layout_height="78dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_dp_23"
+        android:layout_marginTop="@dimen/dimen_dp_26"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/dimen_dp_16"
+        android:paddingStart="@dimen/dimen_dp_16">
+
+        <RelativeLayout
+            android:id="@+id/layout_profile_header_view_4_single_rl_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/layout_profile_header_view_4_single_ll_flow_and_chat"
+                android:id="@+id/layout_profile_header_view_4_single_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="韩梅梅"
+                android:textColor="@color/color_3E4F6C"
+                android:textSize="@dimen/dimen_sp_20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/layout_profile_header_view_4_single_tv_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_profile_header_view_4_single_tv_name"
+                android:layout_marginTop="@dimen/dimen_dp_8"
+                android:text="25岁，北京，市场总监"
+                android:textColor="@color/color_3E4F6C"
+                android:textSize="@dimen/dimen_sp_14" />
+
+            <LinearLayout
+                android:id="@+id/layout_profile_header_view_4_single_ll_flow_and_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:id="@+id/layout_profile_header_view_4_single_tv_flow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_dp_10"
+                    android:background="@drawable/selector_follow_status"
+                    android:drawablePadding="@dimen/dimen_dp_5"
+                    android:drawableStart="@drawable/ic_add_follow"
+                    android:paddingBottom="@dimen/dimen_dp_8"
+                    android:paddingEnd="@dimen/dimen_dp_21"
+                    android:paddingStart="@dimen/dimen_dp_21"
+                    android:paddingTop="@dimen/dimen_dp_8"
+                    android:text="@string/str_follow"
+                    android:textColor="@color/color_selector_follow_text"
+                    android:textSize="@dimen/dimen_sp_13" />
+
+                <TextView
+                    android:id="@+id/layout_profile_header_view_4_single_tv_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_white_radius_border_22dp"
+                    android:paddingBottom="@dimen/dimen_dp_8"
+                    android:paddingEnd="@dimen/dimen_dp_21"
+                    android:paddingStart="@dimen/dimen_dp_21"
+                    android:paddingTop="@dimen/dimen_dp_8"
+                    android:text="@string/str_chat"
+                    android:textColor="@color/color_selector_follow_text"
+                    android:textSize="@dimen/dimen_sp_13" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_profile_header_view_4_single_ll_match_and_intersection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_dp_19"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_profile_header_view_4_single_ll_intersection"
+                android:layout_width="@dimen/dimen_dp_156"
+                android:layout_height="@dimen/dimen_dp_44"
+                android:background="@drawable/shape_purple_radius_41dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/layout_profile_header_view_4_single_tv_intersection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_dp_14"
+                    android:drawableStart="@drawable/ic_intersection"
+                    android:paddingBottom="@dimen/dimen_dp_12"
+                    android:paddingTop="@dimen/dimen_dp_12"
+                    tools:text="7个交集"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/dimen_sp_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_profile_header_view_4_single_ll_match"
+                android:layout_width="@dimen/dimen_dp_156"
+                android:layout_height="@dimen/dimen_dp_44"
+                android:layout_marginStart="@dimen/dimen_dp_12"
+                android:background="@drawable/shape_blue_radius_41dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/layout_profile_header_view_4_single_tv_match"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/dimen_dp_14"
+                    android:drawableStart="@drawable/ic_in_degrees"
+                    android:paddingBottom="@dimen/dimen_dp_12"
+                    android:paddingTop="@dimen/dimen_dp_12"
+                    tools:text="合拍度75%"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/dimen_sp_14" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

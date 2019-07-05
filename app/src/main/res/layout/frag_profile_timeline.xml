@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oneone.framework.ui.widget.CommonScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <com.oneone.framework.ui.widget.SimplePullRecyclerView
+        android:id="@+id/layout_profile_timeline_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_dp_18"
+       />
+</com.oneone.framework.ui.widget.CommonScrollView>
